@@ -27,7 +27,7 @@ git push
 
 # Usage of the repository
 ```
-curl -s --compressed "https://pieroproietti.github.io/penguins_eggs_ppa/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins_eggs_ppa.list "https://pieroproietti.github.io/penguins_eggs_ppa/penguins_eggs_ppa.list"
+curl -s --compressed "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins-eggs-ppa.list "https://pieroproietti.github.io/penguins_eggs_ppa/penguins-eggs-ppa.list"
 sudo apt update
 ```
