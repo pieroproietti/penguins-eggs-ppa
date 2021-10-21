@@ -1,5 +1,8 @@
 ## Penguin's eggs ppa
 
+To build this ppa I follow this [assafmo guide](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html)
+
+
 ### Build the repositoy
 * Create an normal repository in github, like penguins-eggs-ppa
 * Go to Settings, then Pages and choose main as default branch for pages
