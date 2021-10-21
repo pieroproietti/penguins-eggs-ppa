@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Penguin's eggs ppa
 
-You can use the [editor on GitHub](https://github.com/pieroproietti/penguins-eggs-ppa/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Build the repositoy
+* Create an normal repository in github, like penguins-eggs-ppa
+* Go to Settings, then Pages and choose main as default branch for pages
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### 
+```
+gpg --import ../piero.proietti-my-private-key.asc 
+gpg --armor --export piero.proietti@gmail.com > KEY.gpg
+echo "deb https://pieroproietti.github.io/penguins_eggs_ppa ./" > penguins_eggs_ppa.list
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Add the deb files in the root
 
-### Jekyll Themes
+```
+dpkg-scanpackages --multiversion . > Packages
+gzip -k -f Packages
+apt-ftparchive release . > Release
+gpg --default-key piero.proietti@gmail.com -abs -o - Release > Release.gpg
+gpg --default-key piero.proietti@gmail.com  --clearsign -o - Release > InRelease
+echo "deb https://github.com/.github.io/penguins_eggs_ppa ./" > penguins_eggs_ppa.list
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pieroproietti/penguins-eggs-ppa/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Push
+```
+git add -A
+git commit
+git push
+```
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Usage of the repository
+```
+curl -s --compressed "https://pieroproietti.github.io/penguins_eggs_ppa/KEY.gpg" | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins_eggs_ppa.list "https://pieroproietti.github.io/penguins_eggs_ppa/penguins_eggs_ppa.list"
+sudo apt update
+```
