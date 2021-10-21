@@ -11,7 +11,7 @@ To build this ppa I follow this [assafmo guide](https://assafmo.github.io/2019/0
 ```
 gpg --import ../piero.proietti-my-private-key.asc 
 gpg --armor --export piero.proietti@gmail.com > KEY.gpg
-echo "deb https://pieroproietti.github.io/penguins_eggs_ppa ./" > penguins_eggs_ppa.list
+echo "deb https://pieroproietti.github.io/penguins-eggs-ppa ./" > penguins-eggs-ppa.list
 ```
 
 ### Update debs
@@ -29,8 +29,12 @@ git push
 ```
 
 # Usage of the repository
+Copy and paste in a terminal window the following two lines
+
 ```
 curl -s --compressed "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | sudo apt-key add -
 sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins-eggs-ppa.list "https://pieroproietti.github.io/penguins-eggs-ppa/penguins-eggs-ppa.list"
 sudo apt update
 ```
+
+Now you can install and upgrade eggs from standard apt commands.
