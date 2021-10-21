@@ -1,6 +1,6 @@
 ## Penguin's eggs ppa
 
-To build this ppa I follow this [assafmo guide](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html)
+To build this ppa I follow this [assafmo guide](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html). I was not able to include all architectures in this repository, and it is a pity, becouse can be great for i386 users. If you can help to include the i386, arm64 and armel versions in this repository, you are really welcome.
 
 
 ### Build the repositoy
