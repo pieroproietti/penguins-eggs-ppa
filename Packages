@@ -11,3 +11,16 @@ Section: main
 Priority: standard
 Description: Perri's Brewery edition: remaster your system and distribuite it
 
+Package: eggs
+Version: 8.17.4-1
+Architecture: amd64
+Maintainer: Piero Proietti @pieroproietti
+Filename: ./eggs_8.17.4-1_amd64.deb
+Size: 41348444
+MD5sum: 872e1688615b0381f18cd9c0a3e7c37f
+SHA1: 312e5941ab9e9234d6d6bb2ced0eecef8659f344
+SHA256: ecd2f7f8089005fa1732349450dab8a4236d94b841cb281d7c5a5ef346ad08ad
+Section: main
+Priority: standard
+Description: Perri's Brewery edition: remaster your system and distribuite it
+
