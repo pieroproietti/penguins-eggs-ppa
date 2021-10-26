@@ -40,5 +40,5 @@ sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins-eggs-ppa.list "htt
 
 Now you can install and upgrade eggs from standard apt commands, remember ```sudo apt update```
 
-# Help
-Probably it is not so difficult to arrange a repository for eggs with all the supported architectures (amd64, i386, arm64 amd armel) someone ca help? 
+# Help wanted
+Probably it is not so difficult to arrange a repository for eggs with all the supported architectures: amd64, i386, arm64 and armel, but I'm not able at the momenti, someone can help? 
