@@ -23,6 +23,7 @@ gzip -k -f Packages
 apt-ftparchive release . > Release
 gpg --default-key piero.proietti@gmail.com -abs -o - Release > Release.gpg
 gpg --default-key piero.proietti@gmail.com  --clearsign -o - Release > InRelease
+
 git add -A
 git commit
 git push
@@ -32,9 +33,12 @@ git push
 Copy and paste in a terminal window the following two lines
 
 ```
+wget -O- https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/penguins-eggs-ppa-keyring.gpg
 curl -s --compressed "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | sudo apt-key add -
 sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins-eggs-ppa.list "https://pieroproietti.github.io/penguins-eggs-ppa/penguins-eggs-ppa.list"
-sudo apt update
 ```
 
-Now you can install and upgrade eggs from standard apt commands.
+Now you can install and upgrade eggs from standard apt commands, remember ```sudo apt update```
+
+# Help
+Probably it is not so difficult to arrange a repository for eggs with all the supported architectures (amd64, i386, arm64 amd armel) someone ca help? 
