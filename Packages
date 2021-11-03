@@ -1,4 +1,21 @@
 Package: eggs
+Source: eggs
+Version: 8.17.11-1
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, net-tools, parted, rsync, squashfs-tools, syslinux, syslinux-common, whois, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./eggs_8.17.11-1_amd64.deb
+Size: 41355812
+MD5sum: b6a2b4b8e42d4f313d1f29cfe4bf82f4
+SHA1: 10bebe4a977e2378f158b34f537298d8a152f0b4
+SHA256: e2fe54ce88e9336e3bddca3e68f6f9336257be62078abf4004875b3b3a6494f9
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
 Version: 8.17.3-1
 Architecture: amd64
 Maintainer: Piero Proietti @pieroproietti
