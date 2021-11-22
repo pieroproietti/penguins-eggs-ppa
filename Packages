@@ -46,6 +46,23 @@ Priority: standard
 Description: Perri's Brewery edition: remaster your system and distribuite it
 
 Package: eggs
+Source: eggs
+Version: 8.17.16-1
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, net-tools, parted, rsync, squashfs-tools, syslinux, syslinux-common, whois, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./eggs_8.17.16-1_amd64.deb
+Size: 41355464
+MD5sum: 815b373eb53c1f4def3e92e339371a39
+SHA1: 7b5bbeea5d89524cf7516d65b8920d16ba462fe2
+SHA256: 319c8162f35cf79ac9c292946c2f479f139f494d45372b8650491e8ab520b7d8
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
 Version: 8.17.3-1
 Architecture: amd64
 Maintainer: Piero Proietti @pieroproietti
