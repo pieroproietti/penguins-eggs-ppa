@@ -15,7 +15,7 @@ echo "deb https://pieroproietti.github.io/penguins-eggs-ppa ./" > penguins-eggs-
 ```
 
 ### Update debs
-Add the deb files in the root
+Add the deb files in the `dists` dir followed by deb architecture
 
 ```
 dpkg-scanpackages --multiversion . > Packages
@@ -33,9 +33,8 @@ git push
 Copy and paste in a terminal window the following two lines
 
 ```
-wget -O- https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/penguins-eggs-ppa-keyring.gpg
-curl -s --compressed "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins-eggs-ppa.list "https://pieroproietti.github.io/penguins-eggs-ppa/penguins-eggs-ppa.list"
+curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
+echo "deb [arch=$(dpkg --print-architecture)] https://pieroproietti.github.io/penguins-eggs-ppa ./" | sudo tee /etc/apt/sources.list.d/penguins-eggs.list > /dev/null
 ```
 
 Now you can install and upgrade eggs from standard apt commands, remember ```sudo apt update```

@@ -5,7 +5,7 @@ Architecture: amd64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, net-tools, parted, rsync, squashfs-tools, syslinux, syslinux-common, whois, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_8.17.11-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.11-1_amd64.deb
 Size: 41355812
 MD5sum: b6a2b4b8e42d4f313d1f29cfe4bf82f4
 SHA1: 10bebe4a977e2378f158b34f537298d8a152f0b4
@@ -22,7 +22,7 @@ Architecture: amd64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, net-tools, parted, rsync, squashfs-tools, syslinux, syslinux-common, whois, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_8.17.12-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.12-1_amd64.deb
 Size: 41356360
 MD5sum: c2c62da43166ebfe97aef6674624d273
 SHA1: ca4c2a50809da7c0b8b5b0eed4d41f12a8fe23ee
@@ -36,7 +36,7 @@ Package: eggs
 Version: 8.17.15-1
 Architecture: amd64
 Maintainer: Piero Proietti @pieroproietti
-Filename: ./eggs_8.17.15-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.15-1_amd64.deb
 Size: 41346080
 MD5sum: e434fa48c45dfc15dfaa23622a4772c0
 SHA1: 130717bee3b576f9ab387aa2cf68ce341a917e1e
@@ -52,7 +52,7 @@ Architecture: amd64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, net-tools, parted, rsync, squashfs-tools, syslinux, syslinux-common, whois, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_8.17.16-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.16-1_amd64.deb
 Size: 41355464
 MD5sum: 815b373eb53c1f4def3e92e339371a39
 SHA1: 7b5bbeea5d89524cf7516d65b8920d16ba462fe2
@@ -63,10 +63,27 @@ Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
+Source: eggs
+Version: 8.17.17-1
+Architecture: i386
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, parted, rsync, squashfs-tools, syslinux, syslinux, syslinux, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/i386/eggs_8.17.17-1_i386.deb
+Size: 40884568
+MD5sum: e890aca633738cef68e9eb481513e0d5
+SHA1: 35b226d6231cd42ab1b5e1d73c56160608366d99
+SHA256: 8d7009965db0b13f48fd31e7086fd0207b73af65a102ac0b4f590407569110bb
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
 Version: 8.17.3-1
 Architecture: amd64
 Maintainer: Piero Proietti @pieroproietti
-Filename: ./eggs_8.17.3-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.3-1_amd64.deb
 Size: 41346352
 MD5sum: 450c8c57c55a605fce5e4fd900232b12
 SHA1: 265bfa3808c484cc08ab1f6a47f66524e8af5715
@@ -79,7 +96,7 @@ Package: eggs
 Version: 8.17.4-1
 Architecture: amd64
 Maintainer: Piero Proietti @pieroproietti
-Filename: ./eggs_8.17.4-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.4-1_amd64.deb
 Size: 41348444
 MD5sum: 872e1688615b0381f18cd9c0a3e7c37f
 SHA1: 312e5941ab9e9234d6d6bb2ced0eecef8659f344
@@ -95,7 +112,7 @@ Architecture: amd64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, net-tools, parted, rsync, squashfs-tools, syslinux, syslinux-common, whois, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_8.17.9-1_amd64.deb
+Filename: ./dists/amd64/eggs_8.17.9-1_amd64.deb
 Size: 41357308
 MD5sum: f9de596fe38013895e4f0ae6c3b98bfd
 SHA1: 745adb8da2b59104374f8468ea23c3be4637bb5d
@@ -112,126 +129,11 @@ Architecture: amd64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.2.1_amd64.deb
+Filename: ./dists/amd64/eggs_9.2.1_amd64.deb
 Size: 41673224
 MD5sum: 645a44b82551970e776f2f85abcb9dfd
 SHA1: c21879498e0a3689ef576b5ef2e742770ff2cc1e
 SHA256: cec9911b268f069b96359fd66796fc1dfcf7f2c116ee9b152905a58e431f8161
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Source: eggs
-Version: 9.2.2
-Architecture: amd64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.2.2_amd64.deb
-Size: 41674412
-MD5sum: 968fce6b592f074bf143e5fa56e97413
-SHA1: 0aa879b1d6fd2d75ef65356cd0f7467f13b1ed9d
-SHA256: 85f2f1d4108e59b4f7f777c72a091b5f00a6797ca869ec26c60a3ad8c51c5bcb
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Source: eggs
-Version: 9.2.3
-Architecture: amd64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.2.3_amd64.deb
-Size: 41796992
-MD5sum: 5cca48853e1917170fdd16aad8444c31
-SHA1: 3dac89c991079673e43a1062e989782f5d1abf9d
-SHA256: 5c30cf2d96984c445ad6d325642ca13337bee985eee379e03dc34c2dca02278e
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Source: eggs
-Version: 9.2.5
-Architecture: amd64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.2.5_amd64.deb
-Size: 41903388
-MD5sum: 44946e5c30a782ad1dba339d11d112b4
-SHA1: 0bb29873b8d2eb93d15a3c3d291c8009d296ce63
-SHA256: 28cfe7b6837a9c859cfec1730c3f3bf9489a733bc1b19c27421820f3dc4854f0
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Source: eggs
-Version: 9.2.6
-Architecture: amd64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.2.6_amd64.deb
-Size: 41905960
-MD5sum: 1724e71faf07d5dfbb080b7cd5db6653
-SHA1: fe6d87bf7fc6791088c04e6ad14685d6ee331233
-SHA256: b10d10617e6fb3ffbc7c00fd894ce02d99da22b8667cb3680c614f0d8daaa802
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Version: 9.2.9
-Architecture: amd64
-Maintainer: Piero Proietti @pieroproietti
-Filename: ./eggs_9.2.9_amd64.deb
-Size: 59130420
-MD5sum: 734cee51d2eb3837fc89a8d5ae600d3c
-SHA1: f1f0cf34527e677e245500ce34a3595c584288c1
-SHA256: 8612ac77296c4ee9a8a5467062c3b6afe7f8b2bb29d4df66f882d55d3670fd2c
-Section: main
-Priority: standard
-Description: Perri's Brewery edition: remaster your system and distribuite it
-
-Package: eggs
-Source: eggs
-Version: 9.3.1
-Architecture: amd64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, pxelinux, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.3.1_amd64.deb
-Size: 59132144
-MD5sum: efcf4cb3169c5701e91854d800548771
-SHA1: d76ef838a4ae6662c50e76dd7c3be6d9a11476f4
-SHA256: 559ecc000cbae2a0a2021d3a297720bf58617a0dc83638fdee2545b6071b2e8f
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Source: eggs
-Version: 9.3.2
-Architecture: amd64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, pxelinux, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./eggs_9.3.2_amd64.deb
-Size: 59132856
-MD5sum: 704c87d8b7994e1e0ea32ec1f0551610
-SHA1: 1e8c7a92ccc61cc936b67e9eac7460e9402004d7
-SHA256: fc2138d67d3e7d3eb9eb390eb8369e20958bace85ed799c72ccec3798e8a73f7
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
