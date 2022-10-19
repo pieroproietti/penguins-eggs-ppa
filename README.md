@@ -15,7 +15,7 @@ echo "deb https://pieroproietti.github.io/penguins-eggs-ppa ./" > penguins-eggs-
 ```
 
 ### Update debs
-Add the deb files in the root
+Add the deb files in the `dists` dir followed by deb architecture
 
 ```
 dpkg-scanpackages --multiversion . > Packages
@@ -33,12 +33,6 @@ git push
 Copy and paste in a terminal window the following two lines
 
 ```
-//v1
-wget -O- https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/penguins-eggs-ppa-keyring.gpg
-curl -s --compressed "https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/penguins-eggs-ppa.list "https://pieroproietti.github.io/penguins-eggs-ppa/penguins-eggs-ppa.list"
-
-//v2
 curl -fsSL http://192.168.0.102:8080/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
 echo "deb [arch=$(dpkg --print-architecture)] http://192.168.0.102:8080 ./" | sudo tee /etc/apt/sources.list.d/penguins-eggs.list > /dev/null
 ```

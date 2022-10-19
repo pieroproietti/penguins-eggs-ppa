@@ -1,2 +1,0 @@
-deb [signed-by=/usr/share/keyrings/penguins-eggs-ppa-keyring.gpg] http://192.168.0.102:8080 ./
-# deb http://192.168.0.102:8080 ./
