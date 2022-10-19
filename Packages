@@ -63,6 +63,23 @@ Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
+Source: eggs
+Version: 8.17.17-1
+Architecture: i386
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, dosfstools, dpkg-dev, isolinux, live-boot, live-boot-initramfs-tools, parted, rsync, squashfs-tools, syslinux, syslinux, syslinux, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/i386/eggs_8.17.17-1_i386.deb
+Size: 40884568
+MD5sum: e890aca633738cef68e9eb481513e0d5
+SHA1: 35b226d6231cd42ab1b5e1d73c56160608366d99
+SHA256: 8d7009965db0b13f48fd31e7086fd0207b73af65a102ac0b4f590407569110bb
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
 Version: 8.17.3-1
 Architecture: amd64
 Maintainer: Piero Proietti @pieroproietti
