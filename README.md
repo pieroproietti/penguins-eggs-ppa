@@ -33,8 +33,8 @@ git push
 Copy and paste in a terminal window the following two lines
 
 ```
-curl -fsSL http://192.168.0.102:8080/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
-echo "deb [arch=$(dpkg --print-architecture)] http://192.168.0.102:8080 ./" | sudo tee /etc/apt/sources.list.d/penguins-eggs.list > /dev/null
+curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
+echo "deb [arch=$(dpkg --print-architecture)] https://pieroproietti.github.io/penguins-eggs-ppa ./" | sudo tee /etc/apt/sources.list.d/penguins-eggs.list > /dev/null
 ```
 
 Now you can install and upgrade eggs from standard apt commands, remember ```sudo apt update```
