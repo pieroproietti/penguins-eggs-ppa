@@ -11,7 +11,6 @@ To build this ppa I follow this [assafmo guide](https://assafmo.github.io/2019/0
 ```
 gpg --import ../piero.proietti-my-private-key.asc 
 gpg --armor --export piero.proietti@gmail.com > KEY.gpg
-echo "deb https://pieroproietti.github.io/penguins-eggs-ppa ./" > penguins-eggs-ppa.list
 ```
 
 ### Update debs
