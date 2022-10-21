@@ -262,10 +262,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, live-boot, live-boot-initramfs-tools, lvm2, parted, pxelinux, rsync, squashfs-tools, syslinux, syslinux-common, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
 Filename: ./dists/amd64/eggs_9.3.3_amd64.deb
-Size: 59293444
-MD5sum: 7327f47ee0906ecdc97cc046992d7ef6
-SHA1: 29b7ca10347969086df543a88f2432cfec24ca85
-SHA256: bf688d3e1451f1c81e24654d38a6f8997a8918b904501c708a167cd763a12d31
+Size: 59296488
+MD5sum: 516f38ea7c28df2349a84159114764d8
+SHA1: 494d20e3554c711ea5d337d6b0291983de3d4def
+SHA256: 0ef65bc4adf1512c124bce1c912b4efa2c5960c71645b952bda097e1322f5fc7
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
