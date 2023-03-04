@@ -545,6 +545,23 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
+Version: 9.3.30
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/amd64/eggs_9.3.30_amd64.deb
+Size: 37803480
+MD5sum: bda2eb24730f7e397ab591270de2b3f6
+SHA1: 76b3441161c708cd0eada08ed39e800125d8dc8f
+SHA256: 7683e4058dc9b1eebd759e496041937a3c4a350c124fe18ec8bc72b4465d8707
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
 Version: 9.3.4
 Architecture: amd64
 Maintainer: artisan <piero.proietti@gmail.com>
