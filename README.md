@@ -39,6 +39,8 @@ echo "deb [arch=$(dpkg --print-architecture)] https://pieroproietti.github.io/pe
 Now you can install and upgrade eggs from standard apt commands, remember ```sudo apt update```
 
 # More informations
+There is a [Penguins' eggs official book](https://penguins-eggs.net/book/) and same other documentation - mostly for developers - on [penguins-eggs repo](https://github.com/pieroproietti/penguins-eggs) under **documents**.
+
 You can contact me by [mail](mailto://pieroproietti@gmail.com) or follow me on 
 [blog](https://penguins-eggs.net), 
 [facebook](https://www.facebook.com/groups/128861437762355/), 
