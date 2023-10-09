@@ -465,10 +465,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
 Filename: ./dists/i386/eggs_9.6.3_i386.deb
-Size: 14555036
-MD5sum: 86dc47849367cd977b930bcc37b2455f
-SHA1: 9d77748db9805f0237e52a68cd201aedeec44374
-SHA256: a637c0cd1b065ca2dd6f35f8e7a723cdfb8035163f6a5964e8ebc085a8168814
+Size: 14553280
+MD5sum: 7d1c34a35e3c87fa3039984d28d67b00
+SHA1: 494dd29db7a40981099fa848c0e0f8750d2d1ea2
+SHA256: 9f8410ae2c57695c6085bf646cc181e9223b074ad4c12a1cbdf385fa4baab207
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -482,10 +482,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
 Filename: ./dists/arm64/eggs_9.6.3_arm64.deb
-Size: 14552412
-MD5sum: 737a4b1cc77e6e044837d430e0999e8c
-SHA1: 8f45246b00f842bdd16da16db954f42a5dd39922
-SHA256: 1813aef1ac64207c48b85f242cd0f6bd7c5236dac263a925db1b4a19ade768f1
+Size: 14554688
+MD5sum: 83f4d1f85841443a2007e4f40fcfae43
+SHA1: 64a832c5d0d2aa3f8b45d66491aa6eb196a3ef92
+SHA256: 6aa18097a0e881445046c53fa20cf63b43c75312bb1f3a4310999d6f23a09d90
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -499,10 +499,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
 Filename: ./dists/amd64/eggs_9.6.3_amd64.deb
-Size: 34539704
-MD5sum: d2dc5991e0fa11fe0b98cdaaa1ac8ff8
-SHA1: 36790bb6eea172c9bf0fc868ff940a9a2cdbd387
-SHA256: 3f877f66b01e9be9c6cfe8a164b0ed08e0862cac646c9d61a4a84bf71f17a32d
+Size: 34537848
+MD5sum: 332c572f6df8cb495f21e5b16389b8d6
+SHA1: 6ff92051101b19543f79f0f96932cf178ea5c2be
+SHA256: 984f1152bad978ac694dbdf01b6576bf0889f032c1950dc33acfeaa5cd9c002c
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
