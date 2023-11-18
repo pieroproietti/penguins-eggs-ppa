@@ -618,10 +618,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, resolvconf
 Filename: ./dists/arm64/eggs_9.6.14_arm64.deb
-Size: 50312144
-MD5sum: d0160159f8d6787af05d7055b7edf65d
-SHA1: ee9f0cdac503e581d2f92658b5e217099c0d21c1
-SHA256: 2130945cbda35ca1b1b41fa365a8daaf9939baea7c0dd4407233dd1fb495118d
+Size: 14604516
+MD5sum: 88a0e6d04d870d2cc92083a4f380a504
+SHA1: 66b73028ce29d6f83f6d5be8bd8d52f346892396
+SHA256: 91a97cd6a967214700d84511aa59e7863dbdb33b8248f497c7e3f05a19d693a1
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -635,10 +635,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, resolvconf
 Filename: ./dists/amd64/eggs_9.6.14_amd64.deb
-Size: 35698616
-MD5sum: 826975ab8af608874fddf0796d559ad0
-SHA1: 58d65a800ccaaff35996cfeb6520bfb9f5193e67
-SHA256: 4328461b50099957a9601599525bb8f92d03d86ca6b0abe680892ff425d2ff11
+Size: 35698904
+MD5sum: af3ca6d65d6e4d22207eeee9a5e9c6e2
+SHA1: 2aea72407ce1833e600323d40d675e70a550415d
+SHA256: 01956e1bb0671cc149e8986d5da40ae14c19a141505db49f3f2e729d17ea9336
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -652,10 +652,10 @@ Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, resolvconf
 Filename: ./dists/i386/eggs_9.6.14_i386.deb
-Size: 50313664
-MD5sum: 5cc34efa9ad5fbb82eb7ebce8931a85d
-SHA1: 8106576dc1d4c6aa80e947c80995bf279c9eba43
-SHA256: 1042c38d3948689db6cef6d402094c3e395b015b397cac5e77c5abcca359509a
+Size: 14604344
+MD5sum: e3010a8d7c124fe8b632a8660456ed3f
+SHA1: 9773f268d7e669470d86a3e6d2e41194e744c2c3
+SHA256: 374e7557c2526f850f6602598907e4f7872dfbafd322db719d38898a9ae0916f
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
