@@ -1545,3 +1545,20 @@ Priority: standard
 Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
+Package: pengui
+Version: 0.2.2
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 43329
+Filename: ./dists/amd64/pengui-0.2.2_amd64.deb
+Size: 44139648
+MD5sum: c6acffbfa262aaed9a312bce881c8153
+SHA1: 60d7082a0c329baf1dd96e80eea2ffa1d75f1ec8
+SHA256: bc0a16335e37ec7d2a2c0be64ef8a29389758abf761f743e9490ab9994265c76
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
