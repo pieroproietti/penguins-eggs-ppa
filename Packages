@@ -1190,6 +1190,57 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
+Version: 9.6.25
+Architecture: arm64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/arm64/eggs_9.6.25_arm64.deb
+Size: 13567320
+MD5sum: 6f0e3e682820e598d57e3d4fcb7c5735
+SHA1: 6baa42e9575bb1662bb81db0f5df4fdde03e13d9
+SHA256: 83dc472e0fe9798c13f1f2cb1d4eac4e75fd2e0e911a75c7ec34950c83a91beb
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.6.25
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/amd64/eggs_9.6.25_amd64.deb
+Size: 34901748
+MD5sum: 75f400b0cc2aa1e86c01c5b1270a54be
+SHA1: fee3883082dbd02a051eb5b334d2ff17d2f3e8d9
+SHA256: 32b6a62902af9d28c2a450a9a57f2f2cb8d385fa963de35f8b8282511e5a5d5b
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.6.25
+Architecture: i386
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/i386/eggs_9.6.25_i386.deb
+Size: 13566704
+MD5sum: ad2815ccdad3695b338883d4ffb45bba
+SHA1: 979b52760b8df256e80e1e457b4c5794364344b5
+SHA256: fc11a950c9647497bde63c617b6d53219b0c5bfd0b5185dc88999ac0738c3f59
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
 Version: 9.6.3
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
@@ -1555,6 +1606,23 @@ Size: 44139648
 MD5sum: c6acffbfa262aaed9a312bce881c8153
 SHA1: 60d7082a0c329baf1dd96e80eea2ffa1d75f1ec8
 SHA256: bc0a16335e37ec7d2a2c0be64ef8a29389758abf761f743e9490ab9994265c76
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
+Package: pengui
+Version: 0.2.3
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 43329
+Filename: ./dists/amd64/pengui-0.2.3.deb
+Size: 44139356
+MD5sum: 1e710c19a046450d8fe28ee6d3f36694
+SHA1: 91de6ba83f5d9f0b21cc338eccfdeb7b70b9f84e
+SHA256: 31ec0d6d36a208c12fff3580d9a69e239b10f6133aa668b13ee27fc201d237e2
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
