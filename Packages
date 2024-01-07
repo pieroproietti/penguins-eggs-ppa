@@ -1630,3 +1630,37 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: pengui
+Version: 0.2.6
+Architecture: arm64
+Maintainer: <artisan@colibri>
+Installed-Size: 60133
+Filename: ./dists/arm64/pengui-0.2.6_arm64.deb
+Size: 60904382
+MD5sum: 7cf3cbf3da25a4d29ec5e3997c9e4c01
+SHA1: 559b3f51e940f9d45de5b03f6a5ce6a1aba0a157
+SHA256: 18d3dfcaa224c967b24176d860bc19c869662bceb955e19b496403ec9a6af136
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
+Package: pengui
+Version: 0.2.6
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 43381
+Filename: ./dists/amd64/pengui-0.2.6.deb
+Size: 44194126
+MD5sum: 28b837dfa4d6836558a33d783d9b66f8
+SHA1: 62307a58235b7a956d10673e02d828e917d17693
+SHA256: 41b268666258242c7a9369474b3dd8d7fc13a3d4663310be66ec6be3bec40501
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
