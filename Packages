@@ -1241,6 +1241,57 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
+Version: 9.6.26
+Architecture: arm64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/arm64/eggs_9.6.26_arm64.deb
+Size: 13566164
+MD5sum: 31edf61ebbef742e16a0e83c1ff7e1fb
+SHA1: b5f8d5f1cd5dd03f6e6f3f9b30fe1943fc2c8dde
+SHA256: 65642ef053ab94e5d6a2a361094694b56861081b2acd658bf5db716e2f922c0c
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.6.26
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/amd64/eggs_9.6.26_amd64.deb
+Size: 34901060
+MD5sum: 4851f6e21b4e42cc543863a74bc6648e
+SHA1: bd8b8afd993f49fbee01ee5a291c80c69e39b5cb
+SHA256: 3888b0ec4cb7d9e686074e4cbe9f60c8311b78ca7f79ae80c4ec55d0345f37e1
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.6.26
+Architecture: i386
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/i386/eggs_9.6.26_i386.deb
+Size: 13566248
+MD5sum: dd2278a3ae2394a47485d82e48c33f05
+SHA1: cd63f49ffdab9aeb603334a8ef4efab967939a39
+SHA256: 37d85f45a4f7f7b3d7e5344a9d148c7df71ebd3230b3dcebf859bd69dd1d763c
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
 Version: 9.6.3
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
@@ -1597,66 +1648,15 @@ Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: pengui
-Version: 0.2.2
-Architecture: amd64
-Maintainer: <artisan@colibri>
-Installed-Size: 43329
-Filename: ./dists/amd64/pengui-0.2.2_amd64.deb
-Size: 44139648
-MD5sum: c6acffbfa262aaed9a312bce881c8153
-SHA1: 60d7082a0c329baf1dd96e80eea2ffa1d75f1ec8
-SHA256: bc0a16335e37ec7d2a2c0be64ef8a29389758abf761f743e9490ab9994265c76
-Section: default
-Priority: optional
-Homepage: http://example.com/no-uri-given
-Description: no description given
-License: unknown
-Vendor: none
-
-Package: pengui
-Version: 0.2.3
-Architecture: amd64
-Maintainer: <artisan@colibri>
-Installed-Size: 43329
-Filename: ./dists/amd64/pengui-0.2.3.deb
-Size: 44139356
-MD5sum: 1e710c19a046450d8fe28ee6d3f36694
-SHA1: 91de6ba83f5d9f0b21cc338eccfdeb7b70b9f84e
-SHA256: 31ec0d6d36a208c12fff3580d9a69e239b10f6133aa668b13ee27fc201d237e2
-Section: default
-Priority: optional
-Homepage: http://example.com/no-uri-given
-Description: no description given
-License: unknown
-Vendor: none
-
-Package: pengui
-Version: 0.2.6
-Architecture: arm64
-Maintainer: <artisan@colibri>
-Installed-Size: 60133
-Filename: ./dists/arm64/pengui-0.2.6_arm64.deb
-Size: 60904382
-MD5sum: 7cf3cbf3da25a4d29ec5e3997c9e4c01
-SHA1: 559b3f51e940f9d45de5b03f6a5ce6a1aba0a157
-SHA256: 18d3dfcaa224c967b24176d860bc19c869662bceb955e19b496403ec9a6af136
-Section: default
-Priority: optional
-Homepage: http://example.com/no-uri-given
-Description: no description given
-License: unknown
-Vendor: none
-
-Package: pengui
 Version: 0.2.6
 Architecture: amd64
 Maintainer: <artisan@colibri>
 Installed-Size: 43381
-Filename: ./dists/amd64/pengui-0.2.6.deb
-Size: 44194126
-MD5sum: 28b837dfa4d6836558a33d783d9b66f8
-SHA1: 62307a58235b7a956d10673e02d828e917d17693
-SHA256: 41b268666258242c7a9369474b3dd8d7fc13a3d4663310be66ec6be3bec40501
+Filename: ./dists/amd64/pengui-0.2.6_amd64.deb
+Size: 44194112
+MD5sum: 52325c80da5308c69bf1d04cfb18224c
+SHA1: 7437379680f6c44490bd09c89a2fbf72c8a055fe
+SHA256: cd743d49c37e0ad1487235ead1d3245f1584d6690f5c3587fe78825ea39b8d0e
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
