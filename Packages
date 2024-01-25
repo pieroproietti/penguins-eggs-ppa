@@ -1766,3 +1766,20 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: pengui
+Version: 0.2.8
+Architecture: amd64
+Maintainer: <artisan@court>
+Installed-Size: 43354
+Filename: ./dists/amd64/pengui-0.2.8_amd64.deb
+Size: 44163730
+MD5sum: 209026e124b431d8e2439589df260e99
+SHA1: fd4f97167298262b626d12f151823c90fb947b41
+SHA256: 15d344458ac52eaa3ee450e4aa3d80e6086a854b9ae837d63e9cf0812653cbf0
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
