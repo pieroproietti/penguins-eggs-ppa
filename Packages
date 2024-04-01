@@ -1732,3 +1732,21 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: pengui
+Version: 0.4.04
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 32165
+Depends: libxcb-cursor0
+Filename: ./dists/amd64/pengui-0.4.04_amd64.deb
+Size: 32745706
+MD5sum: 53870a6b75162d4ac61a20dfa90e6087
+SHA1: 2277ba0f0354f3f0f4b66751bca555ef852f346a
+SHA256: 58a9756dd41a93a7998f70a8745eb166d7e0c45c6ddef383deba857c91cf574c
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
