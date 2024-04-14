@@ -1749,6 +1749,57 @@ Priority: standard
 Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
+Package: eggs
+Source: eggs
+Version: 9.7.2
+Architecture: arm64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/arm64/eggs_9.7.2_arm64.deb
+Size: 13572368
+MD5sum: 19bbba41739353941da4f300eec2ca50
+SHA1: a64f44c56e0c8447d73c1b1869816c8eb3cc7b56
+SHA256: f7c84d305b7e0485571ab42e3ad590f08af250e0fe89e4c8baafccb048894f23
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.7.2
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/amd64/eggs_9.7.2_amd64.deb
+Size: 34980648
+MD5sum: 56322734b5ee45d739725482bbe69cdd
+SHA1: 49137c8f35fc6f4854e64ae3ea77c0ca98f6cb7e
+SHA256: 040e972f3a33a3c05c3fd123aa97db94a6a7650a027f26af5ed5ce8ecea51315
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.7.2
+Architecture: i386
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/i386/eggs_9.7.2_i386.deb
+Size: 13574536
+MD5sum: 903964b755ac657847e4468285ffe785
+SHA1: a525f008a86e468ce716d115fde75df9dbac4098
+SHA256: 56ec10bec4568c299164b04f2b4b08be0b91f0d3b46376360b0bed622c736ca1
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
 Package: pengui
 Version: 0.2.6
 Architecture: amd64
@@ -1812,6 +1863,24 @@ Size: 32555596
 MD5sum: 1b63492c4e3a3570ab9998560c834bc0
 SHA1: ed0955348348d37ee71dfc8ae0a29e87ef020ff4
 SHA256: 58ee1169830024dd25536bf2b094ba8cbf11d9d63836e2d67237b75bc1eb4080
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
+Package: pengui
+Version: 0.7.3
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 34515
+Depends: libxcb-cursor0
+Filename: ./dists/amd64/pengui-0.7.3_amd64.deb
+Size: 35142192
+MD5sum: 482f3d77835cc2ae48c950d68a8550f9
+SHA1: 13990911d57914d580ed182a475c0a67584d9178
+SHA256: 6c5fed6a2a5d8c6a257ce7f094c57a278fa1eeda630b1e98205c4e12953d7a18
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
