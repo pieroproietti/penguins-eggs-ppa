@@ -1902,6 +1902,57 @@ Priority: standard
 Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
+Package: eggs
+Source: eggs
+Version: 9.7.6
+Architecture: i386
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/i386/eggs_9.7.6_i386.deb
+Size: 13570964
+MD5sum: a7589d6dd9476bd6b60aea3293d4393a
+SHA1: a8ee8b642560430203d96a9771bad9057a7edf5f
+SHA256: fa24d4fadb9d71279bb7abec87db39f61f99f6747fab992583c5993c2c4627c0
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.7.6
+Architecture: arm64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/arm64/eggs_9.7.6_arm64.deb
+Size: 13569400
+MD5sum: 694da5d7f49ef491280e680ea51633af
+SHA1: ca19ee13d0a4f8a98efeabf4578fefbfca12d47f
+SHA256: 8685ff8e40a6e3f601c2d5c956593ca5b4ee1d2a26a905726ec454baf422323b
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.7.6
+Architecture: amd64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/amd64/eggs_9.7.6_amd64.deb
+Size: 36238944
+MD5sum: a9a0055553feda62c092a39337e6fe17
+SHA1: d74135ba0d6d6f37c75037c16bec66db80a46b01
+SHA256: 8c6c4f00751e49780bf2ad4dce23cc203a40dd724ec2711a3f2a5b3508e2ffe5
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
 Package: pengui
 Version: 0.2.6
 Architecture: amd64
