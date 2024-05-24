@@ -2131,6 +2131,23 @@ Version: 0.7.8
 Architecture: amd64
 Maintainer: <artisan@colibri>
 Installed-Size: 122882
+Filename: ./dists/amd64/pengui-0.7.8-1_amd64.deb
+Size: 47313106
+MD5sum: 978b32d280fd8881e9495ac759cb875f
+SHA1: 47f95803615f8f5721dfd92e36e45392bfc8d11d
+SHA256: b8b23a4d8af925314f6fa23ad90e792621a9d614c11fd695685d9b9301eb1676
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
+Package: pengui
+Version: 0.7.8
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 122882
 Filename: ./dists/amd64/pengui-0.7.8_amd64.deb
 Size: 47314634
 MD5sum: db6ff8cd6cf33141dfa3992276266fd1
