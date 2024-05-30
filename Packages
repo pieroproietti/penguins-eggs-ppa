@@ -2265,3 +2265,57 @@ Priority: standard
 Description: penguins-eggs: remaster your system and distribuite it
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 9.8.3
+Architecture: i386
+Maintainer: Piero Proietti @pieroproietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/i386/penguins-eggs_9.8.3-1_i386.deb
+Size: 19604220
+MD5sum: 55e2f28749bcd71b6cd6cf7b9c38d7c5
+SHA1: de05bba870c8f73766e6c95ad7b1c7a91050bc73
+SHA256: edf32f7f7fe5812778e4f3f205d8cc7ecbf0e8556d6156288f56d4bc5b95d309
+Section: main
+Priority: standard
+Description: penguins-eggs: remaster your system and distribuite it
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 9.8.3
+Architecture: arm64
+Maintainer: Piero Proietti @pieroproietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux-common, syslinux-efi, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_9.8.3-1_arm64.deb
+Size: 19610688
+MD5sum: a0c9e25358e38ad28fd2e74c6929ab9d
+SHA1: e31a17b7aca21e8b641ab957fc62f3c48e057cab
+SHA256: 2716a8668f5bfb6969958b4558b1c555972060e202b4c77b1e1684eb533e30b6
+Section: main
+Priority: standard
+Description: penguins-eggs: remaster your system and distribuite it
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 9.8.3
+Architecture: amd64
+Maintainer: Piero Proietti @pieroproietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/amd64/penguins-eggs_9.8.3-1_amd64.deb
+Size: 19607228
+MD5sum: 7a514ccd63d23515c5362c615564021c
+SHA1: dd8ff6258828a56f777decd15a16794d15f8d95b
+SHA256: cfee14681badfedeea0f1933421178fc2e53a282c5a17755fe78abc049e7f378
+Section: main
+Priority: standard
+Description: penguins-eggs: remaster your system and distribuite it
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
