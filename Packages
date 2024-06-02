@@ -2162,6 +2162,60 @@ Vendor: none
 
 Package: penguins-eggs
 Source: penguins-eggs
+Version: 10.0.1
+Architecture: i386
+Maintainer: Piero Proietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/i386/penguins-eggs_10.0.1-1_i386.deb
+Size: 16602016
+MD5sum: 08e5d8d79bc97d738a1e05b5a356de65
+SHA1: 16b6594656638626566a321217ac999e1afc1cc2
+SHA256: 4e268427dfc3a2f25b1d3265dc125022b022ddb1ce5c26b30a614ccf452ccdd4
+Section: main
+Priority: standard
+Description: testing eggs as ECMAScript modules
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.1
+Architecture: arm64
+Maintainer: Piero Proietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux-common, syslinux-efi, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_10.0.1-1_arm64.deb
+Size: 16602428
+MD5sum: 6a4c3a85768851507823753cc3cbae89
+SHA1: ec08270ff586d7ad5cb49ff39b48bf881bdbd09d
+SHA256: 7f2e040b27cf8e3fe2264b99eb11be9bb9888c3dce3139b06248d3c00c3ecfa3
+Section: main
+Priority: standard
+Description: testing eggs as ECMAScript modules
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.1
+Architecture: amd64
+Maintainer: Piero Proietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-amd64-bin, isolinux, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/amd64/penguins-eggs_10.0.1-1_amd64.deb
+Size: 16608020
+MD5sum: 4f11428547341070e567865fa045fda9
+SHA1: d50e5681bcb7f0098b95677a6dd2e45b29a141d5
+SHA256: 7044af275e27cbac77cd4de520292f8b50c9c6a5b67ccee50e2ddb70eba0fddb
+Section: main
+Priority: standard
+Description: testing eggs as ECMAScript modules
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: penguins-eggs
+Source: penguins-eggs
 Version: 9.8.2
 Architecture: i386
 Maintainer: Piero Proietti @pieroproietti
