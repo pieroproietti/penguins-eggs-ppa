@@ -2160,6 +2160,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: pengui
+Version: 0.7.9
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 123593
+Filename: ./dists/amd64/pengui-0.7.9_amd64.deb
+Size: 47451586
+MD5sum: fb1db0abba349091f10816b442883b72
+SHA1: abfbb190fd1d6f38b24869cbbe80d67d49767eaa
+SHA256: a9249ace360a24a5f4eea16e9772d363bb829bd8e4d604528488c8cfdca6fde2
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: penguins-eggs
 Source: penguins-eggs
 Version: 10.0.1
