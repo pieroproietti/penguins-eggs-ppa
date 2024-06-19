@@ -2038,6 +2038,23 @@ Priority: standard
 Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
+Package: live-config-bionic
+Source: live-config-bionic
+Version: 0.0.1-1
+Architecture: amd64
+Maintainer: Piero Proietti
+Conflicts: live-config-systemd, live-config-sysvinit, open-infrastructure-system-config
+Filename: ./dists/amd64/live-config-bionic_0.0.1-1_amd64.deb
+Size: 45016
+MD5sum: 962fd9a8b5b152810e0458f1a12d0c6d
+SHA1: 56ab88de7ebe621cee5f874526a92f50349a3de4
+SHA256: b1891a61ca618c330026b3655238d5db2a97413c02575eaec522deeda48da0b6
+Section: main
+Priority: standard
+Description: Live configuration file for Ubuntu Bionic
+ This package contains the live configuration for Bionic.
+Standards-Version: 4.5.0
+
 Package: pengui
 Version: 0.2.6
 Architecture: amd64
