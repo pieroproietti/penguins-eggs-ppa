@@ -2933,10 +2933,10 @@ Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
 Filename: ./dists/amd64/penguins-eggs_10.0.12-2_amd64.deb
-Size: 16117216
-MD5sum: 07c717176e56bb3748516d5f510117df
-SHA1: 0b6554c815ce8d36ef0d6f119e8bb1cf4206c615
-SHA256: 552cda937446b1f93dd80556023a1ebcab3fa6d218d0058471d7be146c1879a0
+Size: 16117028
+MD5sum: 207a067317541089cea39a77ab263b88
+SHA1: de9c7301022d2eec7302ec526c35b40a4d3dbcec
+SHA256: 0eb018203fb416065a2960a257bd2780506626e6a9d78ff3b6a80da2dd8dd6a3
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
