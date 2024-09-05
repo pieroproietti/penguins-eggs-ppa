@@ -2055,6 +2055,46 @@ Description: Live configuration file for Ubuntu Bionic
  This package contains the live configuration for Bionic.
 Standards-Version: 4.5.0
 
+Package: midori
+Version: 11.3.3
+Architecture: amd64
+Maintainer: Nicolas Longardi <nico@locosporlinux.com>
+Installed-Size: 297108
+Depends: libasound2, libatk1.0-0, libc6, libcairo-gobject2, libcairo2, libdbus-1-3, libdbus-glib-1-2, libffi8 | libffi7 | libffi6, libfontconfig1, libfreetype6, libglib2.0-0, libgtk-3-0, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libvpx7 | libvpx6 | libvpx5, libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxrandr2, libxtst6, zlib1g, fontconfig, procps, pulseaudio | apulse | pipewire
+Provides: www-browser
+Filename: ./dists/amd64/midori_11.3.3_amd64.deb
+Size: 86633876
+MD5sum: 3438e151c0f7511257c6ff2a229e36e3
+SHA1: 5715d832aa4e06e8ba8122f7faea32322ef59538
+SHA256: f3662f41252012fae901b0681f5832d63ad6a3e52c6cfb9b8524ce3cd0d3413d
+Section: web
+Priority: optional
+Homepage: https://astian.org/es/navegador-midori/
+Description: The GNU Midori is a light, fast and secure browser that protects and
+ loves to take care of your privacy and data security.
+ Enjoy thousands of add-ons, ad blockers and much more.
+ midori by Astian.
+
+Package: midori
+Version: 11.3.3
+Architecture: i386
+Maintainer: Nicolas Longardi <nico@locosporlinux.com>
+Installed-Size: 299904
+Depends: libasound2, libatk1.0-0, libc6, libcairo-gobject2, libcairo2, libdbus-1-3, libdbus-glib-1-2, libffi8 | libffi7 | libffi6, libfontconfig1, libfreetype6, libglib2.0-0, libgtk-3-0, libnspr4, libnss3, libpango-1.0-0, libstdc++6, libvpx7 | libvpx6 | libvpx5, libx11-6, libx11-xcb1, libxcb-shm0, libxcb1, libxcomposite1, libxdamage1, libxext6, libxfixes3, libxrandr2, libxtst6, zlib1g, fontconfig, procps, pulseaudio | apulse | pipewire
+Provides: www-browser
+Filename: ./dists/i386/midori_11.3.3_i386.deb
+Size: 87724180
+MD5sum: a0da525b32a627c8ea26a00c25d9aabf
+SHA1: 289a33c58199dc15f9f18d2a047a839cd98d4446
+SHA256: 1df2d5892167a7818f98718870e04e47f5390dc81d0b1b1d0a3ca6095620fb06
+Section: web
+Priority: optional
+Homepage: https://astian.org/es/navegador-midori/
+Description: The GNU Midori is a light, fast and secure browser that protects and
+ loves to take care of your privacy and data security.
+ Enjoy thousands of add-ons, ad blockers and much more.
+ midori by Astian.
+
 Package: pengui
 Version: 0.2.6
 Architecture: amd64
