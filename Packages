@@ -579,6 +579,23 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 Package: eggs
 Source: eggs
 Version: 9.7.2
+Architecture: arm64
+Maintainer: artisan <piero.proietti@gmail.com>
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu
+Filename: ./dists/arm64/eggs_9.7.2_arm64.deb
+Size: 13572368
+MD5sum: 19bbba41739353941da4f300eec2ca50
+SHA1: a64f44c56e0c8447d73c1b1869816c8eb3cc7b56
+SHA256: f7c84d305b7e0485571ab42e3ad590f08af250e0fe89e4c8baafccb048894f23
+Section: main
+Priority: standard
+Description: Perri's Brewery edition
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+
+Package: eggs
+Source: eggs
+Version: 9.7.2
 Architecture: i386
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux, syslinux-common, xorriso
@@ -612,16 +629,16 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
-Version: 9.7.2
+Version: 9.7.3
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./dists/arm64/eggs_9.7.2_arm64.deb
-Size: 13572368
-MD5sum: 19bbba41739353941da4f300eec2ca50
-SHA1: a64f44c56e0c8447d73c1b1869816c8eb3cc7b56
-SHA256: f7c84d305b7e0485571ab42e3ad590f08af250e0fe89e4c8baafccb048894f23
+Filename: ./dists/arm64/eggs_9.7.3_arm64.deb
+Size: 13572512
+MD5sum: 0e411df1315b50c840245f61a8b840a7
+SHA1: f1c79e6060b856a3052d397d3f44ba4a25479554
+SHA256: 9c3514c6e0c0487ae6aea33a7fd97f614d46f250b5198d721d02d197ac553a71
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -663,16 +680,16 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
-Version: 9.7.3
+Version: 9.7.4
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./dists/arm64/eggs_9.7.3_arm64.deb
-Size: 13572512
-MD5sum: 0e411df1315b50c840245f61a8b840a7
-SHA1: f1c79e6060b856a3052d397d3f44ba4a25479554
-SHA256: 9c3514c6e0c0487ae6aea33a7fd97f614d46f250b5198d721d02d197ac553a71
+Filename: ./dists/arm64/eggs_9.7.4_arm64.deb
+Size: 13577716
+MD5sum: 50d6ded0a364ec4e1dcf55eed8b6e072
+SHA1: e0a94192627cc9641722a180c0b12683dd348d6f
+SHA256: 1c4c636fa4c0ebbb09b7b69e4f3e95f2c64eb490792f86f868e9b59e219bc25f
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -714,16 +731,16 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
-Version: 9.7.4
+Version: 9.7.6
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./dists/arm64/eggs_9.7.4_arm64.deb
-Size: 13577716
-MD5sum: 50d6ded0a364ec4e1dcf55eed8b6e072
-SHA1: e0a94192627cc9641722a180c0b12683dd348d6f
-SHA256: 1c4c636fa4c0ebbb09b7b69e4f3e95f2c64eb490792f86f868e9b59e219bc25f
+Filename: ./dists/arm64/eggs_9.7.6_arm64.deb
+Size: 13569400
+MD5sum: 694da5d7f49ef491280e680ea51633af
+SHA1: ca19ee13d0a4f8a98efeabf4578fefbfca12d47f
+SHA256: 8685ff8e40a6e3f601c2d5c956593ca5b4ee1d2a26a905726ec454baf422323b
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -765,16 +782,16 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
-Version: 9.7.6
+Version: 9.7.7
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./dists/arm64/eggs_9.7.6_arm64.deb
-Size: 13569400
-MD5sum: 694da5d7f49ef491280e680ea51633af
-SHA1: ca19ee13d0a4f8a98efeabf4578fefbfca12d47f
-SHA256: 8685ff8e40a6e3f601c2d5c956593ca5b4ee1d2a26a905726ec454baf422323b
+Filename: ./dists/arm64/eggs_9.7.7_arm64.deb
+Size: 13570352
+MD5sum: 3fec8603466e4dd486fbf45f115636ae
+SHA1: c94a860298d0edfb58701071ab73f20fc3c7236f
+SHA256: 561955847d310ff3565c5b0968dbb5c0210b7ed7317c4062e9b44a739dd649df
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -816,16 +833,16 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: eggs
 Source: eggs
-Version: 9.7.7
+Version: 9.7.8
 Architecture: arm64
 Maintainer: artisan <piero.proietti@gmail.com>
 Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./dists/arm64/eggs_9.7.7_arm64.deb
-Size: 13570352
-MD5sum: 3fec8603466e4dd486fbf45f115636ae
-SHA1: c94a860298d0edfb58701071ab73f20fc3c7236f
-SHA256: 561955847d310ff3565c5b0968dbb5c0210b7ed7317c4062e9b44a739dd649df
+Filename: ./dists/arm64/eggs_9.7.8_arm64.deb
+Size: 13606924
+MD5sum: 5738b8b7418e26fd6b6239675b7ac6c7
+SHA1: c9a6ad0976395778545d47ca3d97254f99d0b3d2
+SHA256: bd08791d5f4cc0d4db8edaeaefae7b3e7066a0b69a450d91b6b697deb1412183
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -843,23 +860,6 @@ Size: 36248152
 MD5sum: 3698f537765ac65c76ffc7e9211bcb9a
 SHA1: af0de8439cc85cd668478939c2f30429696baf0e
 SHA256: 786c9a0e6ea07ad573706eebca5d2bf4debb153b47c261cd854fd161b96db099
-Section: main
-Priority: standard
-Description: Perri's Brewery edition
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
-
-Package: eggs
-Source: eggs
-Version: 9.7.8
-Architecture: arm64
-Maintainer: artisan <piero.proietti@gmail.com>
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, grub-efi-arm64-bin, nodejs, isolinux, jq, live-boot, live-boot-initramfs-tools, lsb-release, lvm2, parted, pxelinux, rsync, squashfs-tools, sshfs,   xorriso
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu
-Filename: ./dists/arm64/eggs_9.7.8_arm64.deb
-Size: 13606924
-MD5sum: 5738b8b7418e26fd6b6239675b7ac6c7
-SHA1: c9a6ad0976395778545d47ca3d97254f99d0b3d2
-SHA256: bd08791d5f4cc0d4db8edaeaefae7b3e7066a0b69a450d91b6b697deb1412183
 Section: main
 Priority: standard
 Description: Perri's Brewery edition
@@ -1032,11 +1032,11 @@ Version: 0.7.8
 Architecture: amd64
 Maintainer: <artisan@colibri>
 Installed-Size: 122882
-Filename: ./dists/amd64/pengui-0.7.8-1_amd64.deb
-Size: 47313106
-MD5sum: 978b32d280fd8881e9495ac759cb875f
-SHA1: 47f95803615f8f5721dfd92e36e45392bfc8d11d
-SHA256: b8b23a4d8af925314f6fa23ad90e792621a9d614c11fd695685d9b9301eb1676
+Filename: ./dists/amd64/pengui-0.7.8_amd64.deb
+Size: 47314634
+MD5sum: db6ff8cd6cf33141dfa3992276266fd1
+SHA1: c709037f9b7f646f4de5923e2fd35dd2c17172e9
+SHA256: aba459ff45c06e83f913be377769dea98aa57e26465aa13a2837a8481f2692f9
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
@@ -1049,11 +1049,11 @@ Version: 0.7.8
 Architecture: amd64
 Maintainer: <artisan@colibri>
 Installed-Size: 122882
-Filename: ./dists/amd64/pengui-0.7.8_amd64.deb
-Size: 47314634
-MD5sum: db6ff8cd6cf33141dfa3992276266fd1
-SHA1: c709037f9b7f646f4de5923e2fd35dd2c17172e9
-SHA256: aba459ff45c06e83f913be377769dea98aa57e26465aa13a2837a8481f2692f9
+Filename: ./dists/amd64/pengui-0.7.8-1_amd64.deb
+Size: 47313106
+MD5sum: 978b32d280fd8881e9495ac759cb875f
+SHA1: 47f95803615f8f5721dfd92e36e45392bfc8d11d
+SHA256: b8b23a4d8af925314f6fa23ad90e792621a9d614c11fd695685d9b9301eb1676
 Section: default
 Priority: optional
 Homepage: http://example.com/no-uri-given
@@ -1077,6 +1077,24 @@ Homepage: http://example.com/no-uri-given
 Description: no description given
 License: unknown
 Vendor: none
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.1
+Architecture: arm64
+Maintainer: Piero Proietti
+Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux-common, syslinux-efi, xorriso
+Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_10.0.1-1_arm64.deb
+Size: 16602428
+MD5sum: 6a4c3a85768851507823753cc3cbae89
+SHA1: ec08270ff586d7ad5cb49ff39b48bf881bdbd09d
+SHA256: 7f2e040b27cf8e3fe2264b99eb11be9bb9888c3dce3139b06248d3c00c3ecfa3
+Section: main
+Priority: standard
+Description: testing eggs as ECMAScript modules
+Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: penguins-eggs
 Source: penguins-eggs
@@ -1116,21 +1134,48 @@ Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.1
+Version: 10.0.10-1
 Architecture: arm64
 Maintainer: Piero Proietti
-Depends: coreutils, cryptsetup, curl, dosfstools, dpkg-dev, git, isolinux, jq, live-boot, live-boot-doc, live-boot-initramfs-tools, live-tools, lsb-release, lvm2, nodejs, parted, pxelinux, rsync, squashfs-tools, sshfs, syslinux-common, syslinux-efi, xorriso
-Conflicts: eggs, calamares-settings-debian, calamares-settings-ubuntu
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         isolinux,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         pxelinux,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         syslinux-common,
+         syslinux-efi,
+         xorriso
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.1-1_arm64.deb
-Size: 16602428
-MD5sum: 6a4c3a85768851507823753cc3cbae89
-SHA1: ec08270ff586d7ad5cb49ff39b48bf881bdbd09d
-SHA256: 7f2e040b27cf8e3fe2264b99eb11be9bb9888c3dce3139b06248d3c00c3ecfa3
+Filename: ./dists/arm64/penguins-eggs_10.0.10-1_arm64.deb
+Size: 19690828
+MD5sum: 8cd92152860af1e9bf5064907db8f8f8
+SHA1: d6cfb96347ef6584c793273d81872f3043ef42cd
+SHA256: 4e1630b540e9603da7babc857ab1ad09704c421bb46c35c483b2e5158db8b086
 Section: main
 Priority: standard
-Description: testing eggs as ECMAScript modules
-Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
@@ -1225,7 +1270,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.10-1
+Version: 10.0.11-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -1255,11 +1300,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.10-1_arm64.deb
-Size: 19690828
-MD5sum: 8cd92152860af1e9bf5064907db8f8f8
-SHA1: d6cfb96347ef6584c793273d81872f3043ef42cd
-SHA256: 4e1630b540e9603da7babc857ab1ad09704c421bb46c35c483b2e5158db8b086
+Filename: ./dists/arm64/penguins-eggs_10.0.11-1_arm64.deb
+Size: 16108384
+MD5sum: ec5d6eff018a452cb387a99c3cc609a3
+SHA1: 5c22f555b008cbf21d36e1ae5c258fefc294f934
+SHA256: 017f15efdc9a4a3bf00a73d449b1d1ddf128c808383bde44d4f34a4e16e8b882
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1361,7 +1406,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.11-1
+Version: 10.0.11-2
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -1391,11 +1436,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.11-1_arm64.deb
-Size: 16108384
-MD5sum: ec5d6eff018a452cb387a99c3cc609a3
-SHA1: 5c22f555b008cbf21d36e1ae5c258fefc294f934
-SHA256: 017f15efdc9a4a3bf00a73d449b1d1ddf128c808383bde44d4f34a4e16e8b882
+Filename: ./dists/arm64/penguins-eggs_10.0.11-2_arm64.deb
+Size: 16108672
+MD5sum: 825045d213fec46f91ef9e1ec3190d14
+SHA1: c4d9fcc9444ff06dc308c96b84dadb7d5425a484
+SHA256: 6e29e7770d5649ab22cd538fc5bbc62002117dfe9a0ae9f73bc00be41329cdce
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1497,7 +1542,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.11-2
+Version: 10.0.12-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -1527,11 +1572,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.11-2_arm64.deb
-Size: 16108672
-MD5sum: 825045d213fec46f91ef9e1ec3190d14
-SHA1: c4d9fcc9444ff06dc308c96b84dadb7d5425a484
-SHA256: 6e29e7770d5649ab22cd538fc5bbc62002117dfe9a0ae9f73bc00be41329cdce
+Filename: ./dists/arm64/penguins-eggs_10.0.12-1_arm64.deb
+Size: 16111288
+MD5sum: cbe8912930b6cf8caafdb0cb789ff638
+SHA1: 4ee2b4916ce17e33f022e6ab4c5b31413e300a16
+SHA256: 2d0ad73c9878c0fa87fdbb4c9c7206a79f3e5af187983ebd575c850ebf543482
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1633,7 +1678,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.12-1
+Version: 10.0.12-2
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -1663,11 +1708,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.12-1_arm64.deb
-Size: 16111288
-MD5sum: cbe8912930b6cf8caafdb0cb789ff638
-SHA1: 4ee2b4916ce17e33f022e6ab4c5b31413e300a16
-SHA256: 2d0ad73c9878c0fa87fdbb4c9c7206a79f3e5af187983ebd575c850ebf543482
+Filename: ./dists/arm64/penguins-eggs_10.0.12-2_arm64.deb
+Size: 16112704
+MD5sum: e8ac726a3c44338054b69c2b9597e82e
+SHA1: c4f00fba14d2d716ff4aeca9d81713b25c1fa3f4
+SHA256: 23a8339953876c1806020fcba81b5bf651f9d3fd4f19c8a1ccb61017d99c320e
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1769,51 +1814,6 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.12-2
-Architecture: arm64
-Maintainer: Piero Proietti
-Depends: coreutils,
-         cryptsetup,
-         curl,
-         dosfstools,
-         dpkg-dev,
-         git,
-         isolinux,
-         jq,
-         live-boot,
-         live-boot-doc,
-         live-boot-initramfs-tools,
-         live-config-systemd | live-config-sysvinit,
-         live-tools,
-         lsb-release,
-         lvm2,
-         nodejs (>= 18),
-         parted,
-         pxelinux,
-         rsync,
-         squashfs-tools,
-         sshfs,
-         syslinux-common,
-         syslinux-efi,
-         xorriso
-Suggests: calamares
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
-Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.12-2_arm64.deb
-Size: 16112704
-MD5sum: e8ac726a3c44338054b69c2b9597e82e
-SHA1: c4f00fba14d2d716ff4aeca9d81713b25c1fa3f4
-SHA256: 23a8339953876c1806020fcba81b5bf651f9d3fd4f19c8a1ccb61017d99c320e
-Section: main
-Priority: standard
-Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
- Penguins-eggs is a versatile remastering tool that allows users to create
- custom live ISO images. It supports multiple Linux distributions, including
- Arch, Debian, Devuan, Ubuntu, and others.
-Standards-Version: 4.5.0
-
-Package: penguins-eggs
-Source: penguins-eggs
 Version: 10.0.12-3
 Architecture: amd64
 Maintainer: Piero Proietti
@@ -1850,6 +1850,51 @@ Size: 16117652
 MD5sum: a461d00d0796b66aab9f3af134b23757
 SHA1: 1650e773cb375074bf5eff5e6f22a7c5a24b4107
 SHA256: 2ac67aee0410c2bf6f0230bc201b55a235a5146cec0d310b36c8aa9ac808afd7
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.13-1
+Architecture: arm64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         isolinux,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         pxelinux,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         syslinux-common,
+         syslinux-efi,
+         xorriso
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_10.0.13-1_arm64.deb
+Size: 16114728
+MD5sum: 7f45fe60cc62ffe66cd1b6155add3045
+SHA1: 6337164287a5961118ab84b2eb7364e1f917ab75
+SHA256: 6a532ff291724d21daf53447299c41f4c60f2aeca95e1fe6d2867e690b12ef11
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1951,7 +1996,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.13-1
+Version: 10.0.14-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -1981,11 +2026,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.13-1_arm64.deb
-Size: 16114728
-MD5sum: 7f45fe60cc62ffe66cd1b6155add3045
-SHA1: 6337164287a5961118ab84b2eb7364e1f917ab75
-SHA256: 6a532ff291724d21daf53447299c41f4c60f2aeca95e1fe6d2867e690b12ef11
+Filename: ./dists/arm64/penguins-eggs_10.0.14-1_arm64.deb
+Size: 16110604
+MD5sum: e5eba73febad3833a40c271b15ab7991
+SHA1: 67b2a8ddd71baa58a7c2e3451aad197a33e11efc
+SHA256: 7503bb2ff2a279878871a88661cfb15c80cc1ef53cd4e603c221dd660ae05992
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2087,7 +2132,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.14-1
+Version: 10.0.15-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2117,11 +2162,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.14-1_arm64.deb
-Size: 16110604
-MD5sum: e5eba73febad3833a40c271b15ab7991
-SHA1: 67b2a8ddd71baa58a7c2e3451aad197a33e11efc
-SHA256: 7503bb2ff2a279878871a88661cfb15c80cc1ef53cd4e603c221dd660ae05992
+Filename: ./dists/arm64/penguins-eggs_10.0.15-1_arm64.deb
+Size: 16124472
+MD5sum: 81b1ae7cb0d50eb4d4b145f859e99e8b
+SHA1: fced2a1d7bc7aa112b7b022a35183b4af70eae7a
+SHA256: 7fd656ae25e803554d4e62b5cab07f00fa57e251bded125b1a2bdabe47bbd9e4
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2223,7 +2268,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.15-1
+Version: 10.0.16-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2253,11 +2298,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.15-1_arm64.deb
-Size: 16124472
-MD5sum: 81b1ae7cb0d50eb4d4b145f859e99e8b
-SHA1: fced2a1d7bc7aa112b7b022a35183b4af70eae7a
-SHA256: 7fd656ae25e803554d4e62b5cab07f00fa57e251bded125b1a2bdabe47bbd9e4
+Filename: ./dists/arm64/penguins-eggs_10.0.16-1_arm64.deb
+Size: 16125748
+MD5sum: 01d09ed60a27c71b5616647ba6109c3d
+SHA1: 09a6b7e5c8e4a3af5af30a138e05857291261ab8
+SHA256: aa0456d3f20a6a80b1cd36adb72aeb90eef0f68a90142b063d9b469b7e285ebe
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2359,7 +2404,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.16-1
+Version: 10.0.18-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2385,15 +2430,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso
+         xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.16-1_arm64.deb
-Size: 16125748
-MD5sum: 01d09ed60a27c71b5616647ba6109c3d
-SHA1: 09a6b7e5c8e4a3af5af30a138e05857291261ab8
-SHA256: aa0456d3f20a6a80b1cd36adb72aeb90eef0f68a90142b063d9b469b7e285ebe
+Filename: ./dists/arm64/penguins-eggs_10.0.18-1_arm64.deb
+Size: 16125432
+MD5sum: 2301cef2b342dd2e1af4b3e487de9529
+SHA1: 3efdc5221c16fb96b5b4b2ba9007682cbff10665
+SHA256: 7d286663427792aa5968d2ee2b3112fdd8a77d7429ded037f229303f930e9ea7
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2495,7 +2540,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.18-1
+Version: 10.0.19-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2525,11 +2570,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.18-1_arm64.deb
-Size: 16125432
-MD5sum: 2301cef2b342dd2e1af4b3e487de9529
-SHA1: 3efdc5221c16fb96b5b4b2ba9007682cbff10665
-SHA256: 7d286663427792aa5968d2ee2b3112fdd8a77d7429ded037f229303f930e9ea7
+Filename: ./dists/arm64/penguins-eggs_10.0.19-1_arm64.deb
+Size: 15662580
+MD5sum: 2dd9ce5e8766bc163f0da54302d18a95
+SHA1: 8c138e1115587085354281294f0ced061e209552
+SHA256: 9f7ee1120967fd579a4a6be36357c1777f12f63547f3ece3983246d24f79b43a
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2631,7 +2676,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.19-1
+Version: 10.0.2-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2657,15 +2702,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso | genisoimage
+         xorriso
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.19-1_arm64.deb
-Size: 15662580
-MD5sum: 2dd9ce5e8766bc163f0da54302d18a95
-SHA1: 8c138e1115587085354281294f0ced061e209552
-SHA256: 9f7ee1120967fd579a4a6be36357c1777f12f63547f3ece3983246d24f79b43a
+Filename: ./dists/arm64/penguins-eggs_10.0.2-1_arm64.deb
+Size: 16661664
+MD5sum: ce58e4e812b25809846f799e7e559b80
+SHA1: c550b54265e8ec90c22843ee1071e00df253765b
+SHA256: 3cc288105cf7c3afa8db9335a0a98a795781a196dc6e50eded88989a8f3832f4
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2767,7 +2812,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.2-1
+Version: 10.0.20-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2793,15 +2838,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso
+         xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.2-1_arm64.deb
-Size: 16661664
-MD5sum: ce58e4e812b25809846f799e7e559b80
-SHA1: c550b54265e8ec90c22843ee1071e00df253765b
-SHA256: 3cc288105cf7c3afa8db9335a0a98a795781a196dc6e50eded88989a8f3832f4
+Filename: ./dists/arm64/penguins-eggs_10.0.20-1_arm64.deb
+Size: 15828708
+MD5sum: b642ffc708b88919347f21354f40dcb7
+SHA1: 2b7235c81d5818598e18c2c9c6afed798187e4b4
+SHA256: e79575efc1e070152733139e40cb5fb0b9f0e15393db3b01360876c87b3b347d
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -2903,7 +2948,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.20-1
+Version: 10.0.21-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -2933,11 +2978,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.20-1_arm64.deb
-Size: 15828708
-MD5sum: b642ffc708b88919347f21354f40dcb7
-SHA1: 2b7235c81d5818598e18c2c9c6afed798187e4b4
-SHA256: e79575efc1e070152733139e40cb5fb0b9f0e15393db3b01360876c87b3b347d
+Filename: ./dists/arm64/penguins-eggs_10.0.21-1_arm64.deb
+Size: 15801292
+MD5sum: e35cb4313d83e97988dfb355594fdbaa
+SHA1: ebf19de48000cd09e11140f703504ac4a677042f
+SHA256: 0d8b398084aa2f6ff4a282438b92b105a4ed58df8fe0d71d397dab213587abd8
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3039,7 +3084,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.21-1
+Version: 10.0.22-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3069,11 +3114,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.21-1_arm64.deb
-Size: 15801292
-MD5sum: e35cb4313d83e97988dfb355594fdbaa
-SHA1: ebf19de48000cd09e11140f703504ac4a677042f
-SHA256: 0d8b398084aa2f6ff4a282438b92b105a4ed58df8fe0d71d397dab213587abd8
+Filename: ./dists/arm64/penguins-eggs_10.0.22-1_arm64.deb
+Size: 15860088
+MD5sum: 7985b789bd0d596fe52c0e907be2a7c2
+SHA1: 14fa2e98af1ef648cff41cf6f07effd75988829e
+SHA256: 728fcb8d211e6c489bd0feb28d5af71ed262dccefdff3c4b5880f37716f0e85f
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3175,7 +3220,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.22-1
+Version: 10.0.23-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3205,11 +3250,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.22-1_arm64.deb
-Size: 15860088
-MD5sum: 7985b789bd0d596fe52c0e907be2a7c2
-SHA1: 14fa2e98af1ef648cff41cf6f07effd75988829e
-SHA256: 728fcb8d211e6c489bd0feb28d5af71ed262dccefdff3c4b5880f37716f0e85f
+Filename: ./dists/arm64/penguins-eggs_10.0.23-1_arm64.deb
+Size: 15861552
+MD5sum: 62c61db269037e9b366f54c23391e9e0
+SHA1: 4b5c0efc6d82e51f94299dce46f423e2f48daaeb
+SHA256: 64091cd22ec686f3f57360f69ba36744d83059786affd967a6723d17902e6386
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3311,7 +3356,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.23-1
+Version: 10.0.24-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3341,11 +3386,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.23-1_arm64.deb
-Size: 15861552
-MD5sum: 62c61db269037e9b366f54c23391e9e0
-SHA1: 4b5c0efc6d82e51f94299dce46f423e2f48daaeb
-SHA256: 64091cd22ec686f3f57360f69ba36744d83059786affd967a6723d17902e6386
+Filename: ./dists/arm64/penguins-eggs_10.0.24-1_arm64.deb
+Size: 15849700
+MD5sum: a7ba8552f84dd5e4f6454315cbc5ce62
+SHA1: e377bbb47af28bb53a509a816c5183e1a4e88461
+SHA256: a99975a01ef9dbef90b0846e4c6c446ab45402d0df569199f89e69eacda1057a
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3447,7 +3492,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.24-1
+Version: 10.0.25-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3477,11 +3522,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.24-1_arm64.deb
-Size: 15849700
-MD5sum: a7ba8552f84dd5e4f6454315cbc5ce62
-SHA1: e377bbb47af28bb53a509a816c5183e1a4e88461
-SHA256: a99975a01ef9dbef90b0846e4c6c446ab45402d0df569199f89e69eacda1057a
+Filename: ./dists/arm64/penguins-eggs_10.0.25-1_arm64.deb
+Size: 15866776
+MD5sum: 1fbfcf710f04e772fcd73b098203405c
+SHA1: 9acab360507c74b94278bbd3256323ee5504d214
+SHA256: 122e88bbb5894f3dab67ed29291146561e60bcbb0ba4c6974af53d4caef4d0cb
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3583,7 +3628,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.25-1
+Version: 10.0.26-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3613,11 +3658,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.25-1_arm64.deb
-Size: 15866776
-MD5sum: 1fbfcf710f04e772fcd73b098203405c
-SHA1: 9acab360507c74b94278bbd3256323ee5504d214
-SHA256: 122e88bbb5894f3dab67ed29291146561e60bcbb0ba4c6974af53d4caef4d0cb
+Filename: ./dists/arm64/penguins-eggs_10.0.26-1_arm64.deb
+Size: 15855268
+MD5sum: 74eefc26920a5b28ff330292f57a8151
+SHA1: e978d3ad16ad87626bc07eb3154e7f41c726ff09
+SHA256: d7fec049cd709ab716bc0bcc153ce86bbdfc25b7a011ca272f72abcb0fe17bb4
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3719,7 +3764,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.26-1
+Version: 10.0.27-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3749,11 +3794,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.26-1_arm64.deb
-Size: 15855268
-MD5sum: 74eefc26920a5b28ff330292f57a8151
-SHA1: e978d3ad16ad87626bc07eb3154e7f41c726ff09
-SHA256: d7fec049cd709ab716bc0bcc153ce86bbdfc25b7a011ca272f72abcb0fe17bb4
+Filename: ./dists/arm64/penguins-eggs_10.0.27-1_arm64.deb
+Size: 15855208
+MD5sum: e4e32ab97d7e662e277370adcd8d1838
+SHA1: 9896bd093275cf1be96070c3dc54d79e9346e86c
+SHA256: 7495941fecf33e6e1c5327823f2abf75b665c15b4e89cc54fabc351c2f370ce7
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3855,7 +3900,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.27-1
+Version: 10.0.28-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -3885,11 +3930,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.27-1_arm64.deb
-Size: 15855208
-MD5sum: e4e32ab97d7e662e277370adcd8d1838
-SHA1: 9896bd093275cf1be96070c3dc54d79e9346e86c
-SHA256: 7495941fecf33e6e1c5327823f2abf75b665c15b4e89cc54fabc351c2f370ce7
+Filename: ./dists/arm64/penguins-eggs_10.0.28-1_arm64.deb
+Size: 16532708
+MD5sum: a757e9028c003b5b0d59b3a5999d8d4c
+SHA1: 47707620eb5dc17f8b39efcd9bbe9c39278897a0
+SHA256: 4f69f243580000e396d8fe334bbf08bfb9170644ae49a8d5ea064200fd52cfc4
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -3991,7 +4036,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.28-1
+Version: 10.0.29-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4021,11 +4066,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.28-1_arm64.deb
-Size: 16532708
-MD5sum: a757e9028c003b5b0d59b3a5999d8d4c
-SHA1: 47707620eb5dc17f8b39efcd9bbe9c39278897a0
-SHA256: 4f69f243580000e396d8fe334bbf08bfb9170644ae49a8d5ea064200fd52cfc4
+Filename: ./dists/arm64/penguins-eggs_10.0.29-1_arm64.deb
+Size: 15895576
+MD5sum: db56c9e36a9984abcd020c9e02fef55d
+SHA1: ccaa586a12ba3af5db6a7d93c482dbedd1076804
+SHA256: 58722f763320876fe4f86e7535afb8daf281fa5ffde264e46e74af43d7d5f1f2
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4127,7 +4172,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.29-1
+Version: 10.0.3-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4153,15 +4198,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso | genisoimage
+         xorriso
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.29-1_arm64.deb
-Size: 15895576
-MD5sum: db56c9e36a9984abcd020c9e02fef55d
-SHA1: ccaa586a12ba3af5db6a7d93c482dbedd1076804
-SHA256: 58722f763320876fe4f86e7535afb8daf281fa5ffde264e46e74af43d7d5f1f2
+Filename: ./dists/arm64/penguins-eggs_10.0.3-1_arm64.deb
+Size: 16374056
+MD5sum: a345f63e6f07ba2a7365e5bfba7f994a
+SHA1: 8b735b315016112c14ec31dc0481a707722729d8
+SHA256: 3001f7d29af79a8d13f85d515044ecce0d89621616a1a4baad0b6be51cd28914
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4263,7 +4308,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.3-1
+Version: 10.0.30-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4289,15 +4334,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso
+         xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.3-1_arm64.deb
-Size: 16374056
-MD5sum: a345f63e6f07ba2a7365e5bfba7f994a
-SHA1: 8b735b315016112c14ec31dc0481a707722729d8
-SHA256: 3001f7d29af79a8d13f85d515044ecce0d89621616a1a4baad0b6be51cd28914
+Filename: ./dists/arm64/penguins-eggs_10.0.30-1_arm64.deb
+Size: 16461972
+MD5sum: ac187bc83ef37cbd27e8e99ad06b90b8
+SHA1: b4b4b80ac3dae192f627b8b91992e43bb201ac79
+SHA256: 381a5c0550928b3dcbd44d6c2bfd1cf68e6d78af184143f8d11f7a5daa293d77
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4399,7 +4444,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.30-1
+Version: 10.0.31-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4429,11 +4474,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.30-1_arm64.deb
-Size: 16461972
-MD5sum: ac187bc83ef37cbd27e8e99ad06b90b8
-SHA1: b4b4b80ac3dae192f627b8b91992e43bb201ac79
-SHA256: 381a5c0550928b3dcbd44d6c2bfd1cf68e6d78af184143f8d11f7a5daa293d77
+Filename: ./dists/arm64/penguins-eggs_10.0.31-1_arm64.deb
+Size: 15907148
+MD5sum: aa246b7909504da1af692039e68d56f2
+SHA1: de437f76964c1c4d3f2b4d8bd05bff5475787b50
+SHA256: d52bdf6a4d08f72ee84da13a264646a4449f916e6167b9228aaa729c58488a7f
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4535,7 +4580,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.31-1
+Version: 10.0.32-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4565,11 +4610,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.31-1_arm64.deb
-Size: 15907148
-MD5sum: aa246b7909504da1af692039e68d56f2
-SHA1: de437f76964c1c4d3f2b4d8bd05bff5475787b50
-SHA256: d52bdf6a4d08f72ee84da13a264646a4449f916e6167b9228aaa729c58488a7f
+Filename: ./dists/arm64/penguins-eggs_10.0.32-1_arm64.deb
+Size: 15897032
+MD5sum: d9a3a6a48f27b3dc6334268b60ca3311
+SHA1: 49a04f4cea54392c89c1a553d770592310200b0e
+SHA256: adc80b3f12b50d0389f15cc554acbc186ee4ec1891131611d6b6324d60755deb
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4671,7 +4716,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.32-1
+Version: 10.0.33-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4701,11 +4746,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.32-1_arm64.deb
-Size: 15897032
-MD5sum: d9a3a6a48f27b3dc6334268b60ca3311
-SHA1: 49a04f4cea54392c89c1a553d770592310200b0e
-SHA256: adc80b3f12b50d0389f15cc554acbc186ee4ec1891131611d6b6324d60755deb
+Filename: ./dists/arm64/penguins-eggs_10.0.33-1_arm64.deb
+Size: 15900768
+MD5sum: 26917c935e1b77d1585b2fa669bd5e34
+SHA1: adfd81fb929956247a742fe23101e164195ca250
+SHA256: 72373d42c9555b923b6b603ad673a31926562a75f6829588435dc602fb61701b
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4807,7 +4852,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.33-1
+Version: 10.0.35-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4837,11 +4882,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.33-1_arm64.deb
-Size: 15900768
-MD5sum: 26917c935e1b77d1585b2fa669bd5e34
-SHA1: adfd81fb929956247a742fe23101e164195ca250
-SHA256: 72373d42c9555b923b6b603ad673a31926562a75f6829588435dc602fb61701b
+Filename: ./dists/arm64/penguins-eggs_10.0.35-1_arm64.deb
+Size: 16411964
+MD5sum: 76af1d9d528be0d89142fbd6676fcefa
+SHA1: 80b9863bedbd2084885a2838bced22f5fcaa7a71
+SHA256: 64acb8b35e9b57467020aa78fc2ee1234d76e0949e41f8eafd27de889a3ca55f
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -4943,7 +4988,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.35-1
+Version: 10.0.36-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -4973,11 +5018,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.35-1_arm64.deb
-Size: 16411964
-MD5sum: 76af1d9d528be0d89142fbd6676fcefa
-SHA1: 80b9863bedbd2084885a2838bced22f5fcaa7a71
-SHA256: 64acb8b35e9b57467020aa78fc2ee1234d76e0949e41f8eafd27de889a3ca55f
+Filename: ./dists/arm64/penguins-eggs_10.0.36-1_arm64.deb
+Size: 15927468
+MD5sum: 2910580c5e27d9365a0a2a7009dc806d
+SHA1: 8ec83dc922dd48069da31a27ac83f1777cb14a33
+SHA256: 5d64c89fae5dfe1cd2ccc0226e9776ea945ae4cd626a7253535e543c803f1c8f
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5079,7 +5124,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.36-1
+Version: 10.0.37-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -5109,11 +5154,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.36-1_arm64.deb
-Size: 15927468
-MD5sum: 2910580c5e27d9365a0a2a7009dc806d
-SHA1: 8ec83dc922dd48069da31a27ac83f1777cb14a33
-SHA256: 5d64c89fae5dfe1cd2ccc0226e9776ea945ae4cd626a7253535e543c803f1c8f
+Filename: ./dists/arm64/penguins-eggs_10.0.37-1_arm64.deb
+Size: 15853896
+MD5sum: 3fd0a7637a3a8229b56a0ba9d391d7bb
+SHA1: b68d3f0f0015962de4416b8de7a568f2f0810e27
+SHA256: 7a4490ffa39830454490e5b3f65b0ede8f464a748644e049dff8d0da64e72240
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5215,7 +5260,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.37-1
+Version: 10.0.38-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -5245,11 +5290,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.37-1_arm64.deb
-Size: 15853896
-MD5sum: 3fd0a7637a3a8229b56a0ba9d391d7bb
-SHA1: b68d3f0f0015962de4416b8de7a568f2f0810e27
-SHA256: 7a4490ffa39830454490e5b3f65b0ede8f464a748644e049dff8d0da64e72240
+Filename: ./dists/arm64/penguins-eggs_10.0.38-1_arm64.deb
+Size: 16278292
+MD5sum: 6b8de7e9ad77d3e4e15202ce58adf378
+SHA1: df778a8940a2692b708f716ec44c08c3c6adc1ba
+SHA256: 912e3f6f5cb7a3355b5e163a78e757563a6f71d4baf76dc47e55bdf1d2aca0ee
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5351,51 +5396,6 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.38-1
-Architecture: arm64
-Maintainer: Piero Proietti
-Depends: coreutils,
-         cryptsetup,
-         curl,
-         dosfstools,
-         dpkg-dev,
-         git,
-         isolinux,
-         jq,
-         live-boot,
-         live-boot-doc,
-         live-boot-initramfs-tools,
-         live-config-systemd | live-config-sysvinit,
-         live-tools,
-         lsb-release,
-         lvm2,
-         nodejs (>= 18),
-         parted,
-         pxelinux,
-         rsync,
-         squashfs-tools,
-         sshfs,
-         syslinux-common,
-         syslinux-efi,
-         xorriso | genisoimage
-Suggests: calamares
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
-Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.38-1_arm64.deb
-Size: 16278292
-MD5sum: 6b8de7e9ad77d3e4e15202ce58adf378
-SHA1: df778a8940a2692b708f716ec44c08c3c6adc1ba
-SHA256: 912e3f6f5cb7a3355b5e163a78e757563a6f71d4baf76dc47e55bdf1d2aca0ee
-Section: main
-Priority: standard
-Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
- Penguins-eggs is a versatile remastering tool that allows users to create
- custom live ISO images. It supports multiple Linux distributions, including
- Arch, Debian, Devuan, Ubuntu, and others.
-Standards-Version: 4.5.0
-
-Package: penguins-eggs
-Source: penguins-eggs
 Version: 10.0.38-2
 Architecture: amd64
 Maintainer: Piero Proietti
@@ -5432,6 +5432,51 @@ Size: 16283632
 MD5sum: 83d8aa95f674832c466d763015825a16
 SHA1: b5b050e2c82a80c307a8d9ddaf9e2752b5288d19
 SHA256: eb517e0975dd8ad791f4d9b3fc031de0efcb44f059c9a0258fd8bc57f429bc69
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.39-1
+Architecture: arm64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         isolinux,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         pxelinux,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         syslinux-common,
+         syslinux-efi,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_10.0.39-1_arm64.deb
+Size: 16087552
+MD5sum: 46fe047cc2c51c759e6a61872dc56848
+SHA1: 7e097d44597efaf986e4f547c860c1093ee28856
+SHA256: 409e439800d64b641d29a62f33564f6ee323aa9184c694858266eab003dcacf4
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5533,7 +5578,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.39-1
+Version: 10.0.4-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -5559,15 +5604,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso | genisoimage
+         xorriso
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.39-1_arm64.deb
-Size: 16087552
-MD5sum: 46fe047cc2c51c759e6a61872dc56848
-SHA1: 7e097d44597efaf986e4f547c860c1093ee28856
-SHA256: 409e439800d64b641d29a62f33564f6ee323aa9184c694858266eab003dcacf4
+Filename: ./dists/arm64/penguins-eggs_10.0.4-1_arm64.deb
+Size: 17326560
+MD5sum: ced4b9dba888aa2c9dcf41f3a5a2b7eb
+SHA1: ab6d3e6bf90323a1d71ee9da9f71c87754a849dd
+SHA256: baa107cc1fc0dbfaa89b1a2346cc99ece5bfa3d98c410329fb54706c5c6f5d63
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5669,7 +5714,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.4-1
+Version: 10.0.40-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -5695,15 +5740,15 @@ Depends: coreutils,
          sshfs,
          syslinux-common,
          syslinux-efi,
-         xorriso
+         xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.4-1_arm64.deb
-Size: 17326560
-MD5sum: ced4b9dba888aa2c9dcf41f3a5a2b7eb
-SHA1: ab6d3e6bf90323a1d71ee9da9f71c87754a849dd
-SHA256: baa107cc1fc0dbfaa89b1a2346cc99ece5bfa3d98c410329fb54706c5c6f5d63
+Filename: ./dists/arm64/penguins-eggs_10.0.40-1_arm64.deb
+Size: 16105184
+MD5sum: 1749475e759e33d86d6e3e0332a99e24
+SHA1: 02849fb04e2e47df5663aef26e183fb5a4b5402c
+SHA256: 6980bb8b01e4a93dd4ea9d6a31f377527dfac4f92fef876fea4770f9bdbfa52b
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5805,7 +5850,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.40-1
+Version: 10.0.41-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -5835,11 +5880,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.40-1_arm64.deb
-Size: 16105184
-MD5sum: 1749475e759e33d86d6e3e0332a99e24
-SHA1: 02849fb04e2e47df5663aef26e183fb5a4b5402c
-SHA256: 6980bb8b01e4a93dd4ea9d6a31f377527dfac4f92fef876fea4770f9bdbfa52b
+Filename: ./dists/arm64/penguins-eggs_10.0.41-1_arm64.deb
+Size: 16778688
+MD5sum: 337bc13af7bac1200ef24d984b552194
+SHA1: 8ec915d9a8bd245d6fe674b08160e56b871767cb
+SHA256: 996a93317bd4fb10d5f4979ca116f063266dc344ceebe768fe04263e1cb085ba
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -5941,7 +5986,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.41-1
+Version: 10.0.42-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -5965,17 +6010,16 @@ Depends: coreutils,
          rsync,
          squashfs-tools,
          sshfs,
-         syslinux-common,
          syslinux-efi,
          xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.41-1_arm64.deb
-Size: 16778688
-MD5sum: 337bc13af7bac1200ef24d984b552194
-SHA1: 8ec915d9a8bd245d6fe674b08160e56b871767cb
-SHA256: 996a93317bd4fb10d5f4979ca116f063266dc344ceebe768fe04263e1cb085ba
+Filename: ./dists/arm64/penguins-eggs_10.0.42-1_arm64.deb
+Size: 16231064
+MD5sum: d724565c8599b03b795a29a0865d7ec3
+SHA1: 57c054cd0788950c93038abb548e65bee1c2908e
+SHA256: 33ea3a05bcc728342b9a7461e7d594c5b15a892ca1078661c66bcbb23e392528
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6074,7 +6118,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.42-1
+Version: 10.0.42-2
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6103,11 +6147,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.42-1_arm64.deb
-Size: 16231064
-MD5sum: d724565c8599b03b795a29a0865d7ec3
-SHA1: 57c054cd0788950c93038abb548e65bee1c2908e
-SHA256: 33ea3a05bcc728342b9a7461e7d594c5b15a892ca1078661c66bcbb23e392528
+Filename: ./dists/arm64/penguins-eggs_10.0.42-2_arm64.deb
+Size: 16229180
+MD5sum: 795e438a92545b6b0d6153147079a15c
+SHA1: 10d7a7e916c6100c0d3d622c75f6d442b1d41158
+SHA256: c27bc0b3c1f4232ba1db0d5065c7c49c25d07e5d256c5189b2f53fdcd19f534e
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6206,7 +6250,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.42-2
+Version: 10.0.43-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6235,11 +6279,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.42-2_arm64.deb
-Size: 16229180
-MD5sum: 795e438a92545b6b0d6153147079a15c
-SHA1: 10d7a7e916c6100c0d3d622c75f6d442b1d41158
-SHA256: c27bc0b3c1f4232ba1db0d5065c7c49c25d07e5d256c5189b2f53fdcd19f534e
+Filename: ./dists/arm64/penguins-eggs_10.0.43-1_arm64.deb
+Size: 16227580
+MD5sum: 56fa54b76987e380abc419fe77632277
+SHA1: 30295d19b278610e202bb16f178c18d211c4984e
+SHA256: 5456e372e9fd8e38a276f85bbf66a525e798f394be58566fb3969736d09bd042
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6338,7 +6382,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.43-1
+Version: 10.0.44-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6367,11 +6411,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.43-1_arm64.deb
-Size: 16227580
-MD5sum: 56fa54b76987e380abc419fe77632277
-SHA1: 30295d19b278610e202bb16f178c18d211c4984e
-SHA256: 5456e372e9fd8e38a276f85bbf66a525e798f394be58566fb3969736d09bd042
+Filename: ./dists/arm64/penguins-eggs_10.0.44-1_arm64.deb
+Size: 16254992
+MD5sum: 2f555d71101fb108ca2de97392b1bf12
+SHA1: 0c9de98c98d1fde314e9129eb27414e04d02ed07
+SHA256: 6c916ad67f89f34316a2373bf69f4e84c15d8c324faac8085e4f44cd10298684
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6470,7 +6514,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.44-1
+Version: 10.0.45-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6479,7 +6523,6 @@ Depends: coreutils,
          dosfstools,
          dpkg-dev,
          git,
-         isolinux,
          jq,
          live-boot,
          live-boot-doc,
@@ -6490,7 +6533,6 @@ Depends: coreutils,
          lvm2,
          nodejs (>= 18),
          parted,
-         pxelinux,
          rsync,
          squashfs-tools,
          sshfs,
@@ -6499,11 +6541,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.44-1_arm64.deb
-Size: 16254992
-MD5sum: 2f555d71101fb108ca2de97392b1bf12
-SHA1: 0c9de98c98d1fde314e9129eb27414e04d02ed07
-SHA256: 6c916ad67f89f34316a2373bf69f4e84c15d8c324faac8085e4f44cd10298684
+Filename: ./dists/arm64/penguins-eggs_10.0.45-1_arm64.deb
+Size: 16411240
+MD5sum: 26d3b5a73f7c3313f654c608bcc8d271
+SHA1: b2bdcd7c30278090cb25f1b843ab5cb9f08d69ed
+SHA256: f2d44caa46d42467a08945045769f12451f60d3700e172f877db616cf113b156
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6598,7 +6640,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.45-1
+Version: 10.0.46-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6625,11 +6667,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.45-1_arm64.deb
-Size: 16411240
-MD5sum: 26d3b5a73f7c3313f654c608bcc8d271
-SHA1: b2bdcd7c30278090cb25f1b843ab5cb9f08d69ed
-SHA256: f2d44caa46d42467a08945045769f12451f60d3700e172f877db616cf113b156
+Filename: ./dists/arm64/penguins-eggs_10.0.46-1_arm64.deb
+Size: 16360616
+MD5sum: 3a761e6284bfd9f1a5809612d5af46d5
+SHA1: e1c421fdbcb68646537bddedf73964fd34580fd7
+SHA256: 69143043b5b83fedfe7a680329070a862049cec6213e0e7b49eea712ea75cdc4
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6724,7 +6766,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.46-1
+Version: 10.0.46-2
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6751,11 +6793,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.46-1_arm64.deb
-Size: 16360616
-MD5sum: 3a761e6284bfd9f1a5809612d5af46d5
-SHA1: e1c421fdbcb68646537bddedf73964fd34580fd7
-SHA256: 69143043b5b83fedfe7a680329070a862049cec6213e0e7b49eea712ea75cdc4
+Filename: ./dists/arm64/penguins-eggs_10.0.46-2_arm64.deb
+Size: 16365008
+MD5sum: 82dd9dd21db569e88e54e93692746df8
+SHA1: d58df0e19c7d74a01e29ea5625bc0bcac9750976
+SHA256: e6c360238dd83b735d11c1f6aa57672b4ab3dcf14a7f605f288c4d0c122b1c02
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6850,7 +6892,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.46-2
+Version: 10.0.47-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -6877,11 +6919,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.46-2_arm64.deb
-Size: 16365008
-MD5sum: 82dd9dd21db569e88e54e93692746df8
-SHA1: d58df0e19c7d74a01e29ea5625bc0bcac9750976
-SHA256: e6c360238dd83b735d11c1f6aa57672b4ab3dcf14a7f605f288c4d0c122b1c02
+Filename: ./dists/arm64/penguins-eggs_10.0.47-1_arm64.deb
+Size: 16368284
+MD5sum: 55bb1f5500f44b552c0d753b912df63a
+SHA1: 0acf2549a60e231fd2aebb3049d8b573615a7763
+SHA256: e72ac2f0e46dadca99eac93cb97141a7da7cb4c071c519b7e11eb7eda76deec6
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -6976,8 +7018,8 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.47-1
-Architecture: arm64
+Version: 10.0.48-1
+Architecture: amd64
 Maintainer: Piero Proietti
 Depends: coreutils,
          cryptsetup,
@@ -6985,6 +7027,7 @@ Depends: coreutils,
          dosfstools,
          dpkg-dev,
          git,
+         grub-efi-amd64-bin,
          jq,
          live-boot,
          live-boot-doc,
@@ -6998,16 +7041,15 @@ Depends: coreutils,
          rsync,
          squashfs-tools,
          sshfs,
-         syslinux-efi,
          xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.47-1_arm64.deb
-Size: 16368284
-MD5sum: 55bb1f5500f44b552c0d753b912df63a
-SHA1: 0acf2549a60e231fd2aebb3049d8b573615a7763
-SHA256: e72ac2f0e46dadca99eac93cb97141a7da7cb4c071c519b7e11eb7eda76deec6
+Filename: ./dists/penguins-eggs_10.0.48-1_amd64.deb
+Size: 16420576
+MD5sum: 907cc0fe883788ea084ba3f76123b5a1
+SHA1: 87910b5ba8df10ae01c72b5799643ec9c24d8942
+SHA256: f0b49e75f1e51b335ecc02cc0aad9583763ed45df22fbda28e1b6749c9e6f1f0
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7103,7 +7145,7 @@ Standards-Version: 4.5.0
 Package: penguins-eggs
 Source: penguins-eggs
 Version: 10.0.48-1
-Architecture: amd64
+Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
          cryptsetup,
@@ -7111,7 +7153,6 @@ Depends: coreutils,
          dosfstools,
          dpkg-dev,
          git,
-         grub-efi-amd64-bin,
          jq,
          live-boot,
          live-boot-doc,
@@ -7125,15 +7166,16 @@ Depends: coreutils,
          rsync,
          squashfs-tools,
          sshfs,
+         syslinux-efi,
          xorriso | genisoimage
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/penguins-eggs_10.0.48-1_amd64.deb
-Size: 16420576
-MD5sum: 907cc0fe883788ea084ba3f76123b5a1
-SHA1: 87910b5ba8df10ae01c72b5799643ec9c24d8942
-SHA256: f0b49e75f1e51b335ecc02cc0aad9583763ed45df22fbda28e1b6749c9e6f1f0
+Filename: ./dists/arm64/penguins-eggs_10.0.48-1_arm64.deb
+Size: 16410416
+MD5sum: 8d6107f60c0ef21b8154ea7a5b89891e
+SHA1: 1fb6c5db8b2aa57abfa84fffa9fd4d7c7082d469
+SHA256: d7217c6cb98c3e5b7cc90eee079aae561479ba78e93355737df5bd405f7c4fad
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7228,7 +7270,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.48-1
+Version: 10.0.48-2
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -7255,11 +7297,266 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.48-1_arm64.deb
-Size: 16410416
-MD5sum: 8d6107f60c0ef21b8154ea7a5b89891e
-SHA1: 1fb6c5db8b2aa57abfa84fffa9fd4d7c7082d469
-SHA256: d7217c6cb98c3e5b7cc90eee079aae561479ba78e93355737df5bd405f7c4fad
+Filename: ./dists/arm64/penguins-eggs_10.0.48-2_arm64.deb
+Size: 16429152
+MD5sum: 9cb45b0274dcd8ba96828da4cb8e8faf
+SHA1: dcc6d1de6dfe90a070b488e65957581ac37e689a
+SHA256: a889470328d9c0d182fd3fdfa87128743f882a24742e534660c5b1e2d0c39d98
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.48-2
+Architecture: i386
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/i386/penguins-eggs_10.0.48-2_i386.deb
+Size: 16431880
+MD5sum: ccd3075746f3d628307baece1762793a
+SHA1: f8331730ba97ededee12e2ebbfb163102a826ec2
+SHA256: 420fface0d071725b2fc26b5888ef47e1a4106d6dc817808a08d3806c2b30307
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.48-2
+Architecture: amd64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         grub-efi-amd64-bin,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/amd64/penguins-eggs_10.0.48-2_amd64.deb
+Size: 16427976
+MD5sum: 60c30b70f5ef50febc123e318f5f276f
+SHA1: 5f87f694e96ef5ec9d97564678e2b6c74e26d420
+SHA256: 7b27df00d5a815a68a3e889f4dbea35d35bf1435d0054c36ca6c66c065979717
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.49-1
+Architecture: arm64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         syslinux-efi,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_10.0.49-1_arm64.deb
+Size: 16431764
+MD5sum: 947a26574b437999f9f5e9796933bbc4
+SHA1: 64b7432230ecf07d0ae9a8b9c222a6130810a66a
+SHA256: f869bf3a5166fe3062953fc39934b283d6306309aadd5652a731ef630136ee52
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.49-1
+Architecture: i386
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/i386/penguins-eggs_10.0.49-1_i386.deb
+Size: 16432384
+MD5sum: bf3013ff3cef445fa9aad46bbf66787f
+SHA1: 2bc32d457c28de948090404af6f13d8837ecd406
+SHA256: 8869d7c26e50a77fc5e9f277cc7106f23fd272aa47bde1a2497a112916a92e7f
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.49-1
+Architecture: amd64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         grub-efi-amd64-bin,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/amd64/penguins-eggs_10.0.49-1_amd64.deb
+Size: 16435052
+MD5sum: 2d7629dd05efd10bd448a8b2731bc2ff
+SHA1: fa2c6e11e5a47e97ac2558fc1d8a696c55882170
+SHA256: 5c95f2cf8adf267f070a45f70ce373ed6a86a4e3aab90cf28bdc4b896b22962f
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.5-2
+Architecture: arm64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         isolinux,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lsb-release,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         pxelinux,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         syslinux-common,
+         syslinux-efi,
+         xorriso
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/arm64/penguins-eggs_10.0.5-2_arm64.deb
+Size: 17188004
+MD5sum: ac0bfbf3033b29319e19b052e3f912d6
+SHA1: dbb786086bc3d961c2f4019d6b960d7f5b44e9e7
+SHA256: 66806688ed9d4cbe47dc9f7b89b3ccefeac4cda3d481b06adf1fd74850db974b
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7361,7 +7658,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.5-2
+Version: 10.0.5-3
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -7391,11 +7688,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.5-2_arm64.deb
-Size: 17188004
-MD5sum: ac0bfbf3033b29319e19b052e3f912d6
-SHA1: dbb786086bc3d961c2f4019d6b960d7f5b44e9e7
-SHA256: 66806688ed9d4cbe47dc9f7b89b3ccefeac4cda3d481b06adf1fd74850db974b
+Filename: ./dists/arm64/penguins-eggs_10.0.5-3_arm64.deb
+Size: 17184612
+MD5sum: 9c5bd527e95b3e84a27cdad62f9375f2
+SHA1: 962db60e2eb314fb1ce49f0ee060e843405cd4d1
+SHA256: 401a3c45051126816b3d38350e8062781b60edaa84cc9ddf184141f5c14930a2
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7497,7 +7794,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.5-3
+Version: 10.0.6-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -7527,11 +7824,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.5-3_arm64.deb
-Size: 17184612
-MD5sum: 9c5bd527e95b3e84a27cdad62f9375f2
-SHA1: 962db60e2eb314fb1ce49f0ee060e843405cd4d1
-SHA256: 401a3c45051126816b3d38350e8062781b60edaa84cc9ddf184141f5c14930a2
+Filename: ./dists/arm64/penguins-eggs_10.0.6-1_arm64.deb
+Size: 17355956
+MD5sum: c2f59077efa08e094f3f8ad558a5aaf1
+SHA1: ade433a7a87df4a4fb61fa1fef904ce35479a979
+SHA256: 0f98366b38b4cd466eb2700f50bc0274efa25ad5453f6022a482b631c0f3bc1c
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7633,7 +7930,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.6-1
+Version: 10.0.8-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -7663,11 +7960,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.6-1_arm64.deb
-Size: 17355956
-MD5sum: c2f59077efa08e094f3f8ad558a5aaf1
-SHA1: ade433a7a87df4a4fb61fa1fef904ce35479a979
-SHA256: 0f98366b38b4cd466eb2700f50bc0274efa25ad5453f6022a482b631c0f3bc1c
+Filename: ./dists/arm64/penguins-eggs_10.0.8-1_arm64.deb
+Size: 17345664
+MD5sum: 3c4543a15d0c435605f955b3b12207ad
+SHA1: ec1cabb9773b4dcee11acece8efb1c3ead3b7003
+SHA256: 950bd576c081ba2336b0030c1882b154de9cdcac8f4225764fac5eb734dcf84b
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7769,7 +8066,7 @@ Standards-Version: 4.5.0
 
 Package: penguins-eggs
 Source: penguins-eggs
-Version: 10.0.8-1
+Version: 10.0.9-1
 Architecture: arm64
 Maintainer: Piero Proietti
 Depends: coreutils,
@@ -7799,11 +8096,11 @@ Depends: coreutils,
 Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.8-1_arm64.deb
-Size: 17345664
-MD5sum: 3c4543a15d0c435605f955b3b12207ad
-SHA1: ec1cabb9773b4dcee11acece8efb1c3ead3b7003
-SHA256: 950bd576c081ba2336b0030c1882b154de9cdcac8f4225764fac5eb734dcf84b
+Filename: ./dists/arm64/penguins-eggs_10.0.9-1_arm64.deb
+Size: 19691116
+MD5sum: 19e8ff081ff679b1754df8a451d4d602
+SHA1: 93707e9e671dd26469a8c7348b3a3a6415b7a996
+SHA256: fb710b23a895ffd1df9b05b43072a76ffe02237809a0804fcdbb3136fd65f364
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -7895,51 +8192,6 @@ Size: 19688404
 MD5sum: 2bc2f8bf3d61a3c86b351800de0d7e1b
 SHA1: 3f2b2048c1b56e9fc24dbc63503ce1d0c08420eb
 SHA256: 4303e00fe5d4e2eb08a5da371d961761f905765565198925bd541258143a57a3
-Section: main
-Priority: standard
-Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
- Penguins-eggs is a versatile remastering tool that allows users to create
- custom live ISO images. It supports multiple Linux distributions, including
- Arch, Debian, Devuan, Ubuntu, and others.
-Standards-Version: 4.5.0
-
-Package: penguins-eggs
-Source: penguins-eggs
-Version: 10.0.9-1
-Architecture: arm64
-Maintainer: Piero Proietti
-Depends: coreutils,
-         cryptsetup,
-         curl,
-         dosfstools,
-         dpkg-dev,
-         git,
-         isolinux,
-         jq,
-         live-boot,
-         live-boot-doc,
-         live-boot-initramfs-tools,
-         live-config-systemd | live-config-sysvinit,
-         live-tools,
-         lsb-release,
-         lvm2,
-         nodejs (>= 18),
-         parted,
-         pxelinux,
-         rsync,
-         squashfs-tools,
-         sshfs,
-         syslinux-common,
-         syslinux-efi,
-         xorriso
-Suggests: calamares
-Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
-Replaces: eggs
-Filename: ./dists/arm64/penguins-eggs_10.0.9-1_arm64.deb
-Size: 19691116
-MD5sum: 19e8ff081ff679b1754df8a451d4d602
-SHA1: 93707e9e671dd26469a8c7348b3a3a6415b7a996
-SHA256: fb710b23a895ffd1df9b05b43072a76ffe02237809a0804fcdbb3136fd65f364
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
