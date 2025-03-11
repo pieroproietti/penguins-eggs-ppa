@@ -865,6 +865,23 @@ Priority: standard
 Description: Perri's Brewery edition
 Suggest: calamares, qml-module-qtquick2, qml-module-qtquick-controls
 
+Package: eggsmaker
+Version: 0.0.2
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 50193
+Filename: ./dists/amd64/eggsmaker-0.0.2_amd64.deb
+Size: 18628788
+MD5sum: 88e311bc2e7c1dfcdae76704f5d53329
+SHA1: 39bd1f995c2528e81fd5ff346310b7b93cd91174
+SHA256: d82c4589746a37baa7996ce668f7bb3e0e0473cbec7002247ee7366804ea0317
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: live-config-bionic
 Source: live-config-bionic
 Version: 0.0.1-1
@@ -9972,6 +9989,48 @@ Size: 63657940
 MD5sum: dae925dd7ff3c5aff9c3a0ebfcb64bf7
 SHA1: 74b5d4e30732dc23e09d49c2e83bbf4e350d7589
 SHA256: 6f36f93feca7a2f389d91313d564249d915712fe5851d55e153bf731c951eb94
+Section: main
+Priority: standard
+Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
+ Penguins-eggs is a versatile remastering tool that allows users to create
+ custom live ISO images. It supports multiple Linux distributions, including
+ Arch, Debian, Devuan, Ubuntu, and others.
+Standards-Version: 4.5.0
+
+Package: penguins-eggs
+Source: penguins-eggs
+Version: 10.0.60-7
+Architecture: amd64
+Maintainer: Piero Proietti
+Depends: coreutils,
+         cryptsetup,
+         cryptsetup-initramfs,
+         curl,
+         dosfstools,
+         dpkg-dev,
+         git,
+         grub-efi-amd64-bin,
+         jq,
+         live-boot,
+         live-boot-doc,
+         live-boot-initramfs-tools,
+         live-config-systemd | live-config-sysvinit,
+         live-tools,
+         lvm2,
+         nodejs (>= 18),
+         parted,
+         rsync,
+         squashfs-tools,
+         sshfs,
+         xorriso | genisoimage
+Suggests: calamares
+Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
+Replaces: eggs
+Filename: ./dists/amd64/penguins-eggs_10.0.60-7_amd64.deb
+Size: 18403916
+MD5sum: e7ad9908f860cc4247511bda08b3083c
+SHA1: 62409970f4fbf2adda8ab87c2ae6a57b46289f7d
+SHA256: 23cb5156902e19da2c5604dc74bd129023be30fc1921252dfde5187e777abbc8
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
