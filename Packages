@@ -15,6 +15,23 @@ Description: no description given
 License: unknown
 Vendor: none
 
+Package: eggsmaker
+Version: 0.0.4
+Architecture: amd64
+Maintainer: <artisan@colibri>
+Installed-Size: 52685
+Filename: ./dists/amd64/eggsmaker-0.0.4_amd64.deb
+Size: 21256396
+MD5sum: 558f5f53720e7b930fe231545d07a700
+SHA1: 1a01b6b725bc495b1a17089788621062413f597a
+SHA256: 2e18f3976610132480326468f59c088e0085412099791c5c733ae36dffba3f75
+Section: default
+Priority: optional
+Homepage: http://example.com/no-uri-given
+Description: no description given
+License: unknown
+Vendor: none
+
 Package: pengui
 Version: 0.7.10
 Architecture: amd64
