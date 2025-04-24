@@ -1314,10 +1314,10 @@ Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
 Filename: ./dists/arm64/penguins-eggs_10.1.0-2_arm64.deb
-Size: 34835164
-MD5sum: 52bd7a01fd6ce4db9f3862015623580a
-SHA1: 3e2e4b0aece59c29d6e6817da9290a8447e5fcf8
-SHA256: 1f250fdfbc79c3e4abeb102939d3b064bc3f2a342892d69b3be16504db94eee3
+Size: 20426788
+MD5sum: 8187f1df64f77e8e0351de13b0de547f
+SHA1: 7cc01ac559386c717adcc9cf1faf6b7954538bb8
+SHA256: 2ee6f5d71f4b6ba7ed5744d92ec9c4ce1c3429f479d1c6b84d63a4a0aa02ae01
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1357,10 +1357,10 @@ Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
 Filename: ./dists/amd64/penguins-eggs_10.1.0-2_amd64.deb
-Size: 34833444
-MD5sum: bb381d6bc17281c6e4de4f6f5c014633
-SHA1: ce0ea276935060c50c9d1e090889dec96b2c7943
-SHA256: e11c3e5b1bf690e4f0653008131451e3ed52ee71a91326be00c78738fbd604ef
+Size: 20415780
+MD5sum: c8c6d1cf0002f845357d764cae902662
+SHA1: 166912c06e8ad8a99eb7f83ba75ea459170a12de
+SHA256: 595cda676acf55e181245e53b804a8a654eee67bec305bce1ba9bfb28b3f92ed
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
@@ -1400,10 +1400,10 @@ Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
 Filename: ./dists/i386/penguins-eggs_10.1.0-2_i386.deb
-Size: 34835304
-MD5sum: 0e02a3de485f8933a592e4206b7e447a
-SHA1: 9d5a700453641f3c9e69abe141c2d939b6478b31
-SHA256: 756137b4833e9ca43c762f5685d4f39b38036302749de68234839943057399a8
+Size: 20413240
+MD5sum: 7e778e54c615015fdace855cac34167f
+SHA1: bdfe31331573ae05a226323522d278a881144ddc
+SHA256: 86594b4c08313b11bff7638f72a3dae5a69b6a1b69f80f2a0a6eabbd45d93d48
 Section: main
 Priority: standard
 Description: A remaster system tool, compatible with Arch, Debian, Devuan, Ubuntu and others
