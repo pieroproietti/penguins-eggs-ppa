@@ -36,11 +36,22 @@ git push
 
 # Usage of the repository
 
-Copy and paste in a terminal window the following two lines
+## Debian 12 bookwom, Ubuntu 22.04 LTS (Jammy) and previous
+Copy and paste in a terminal window the following two lines:
 
 ```
 curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
 echo "deb [arch=$(dpkg --print-architecture)] https://pieroproietti.github.io/penguins-eggs-ppa ./" | sudo tee /etc/apt/sources.list.d/penguins-eggs.list > /dev/null
+```
+## Debian 13 trixe, Ubuntu 23.04 LTS (Noble) and following
+```
+curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
+echo "
+Types: deb
+URIs: https://pieroproietti.github.io/penguins-eggs-ppa
+Suites: ./
+Signed-By: /usr/share/keyrings/penguins-eggs-ppa.gpg
+" | sudo tee /etc/apt/sources.list.d/penguins-eggs-ppa.sources > /dev/null
 ```
 
 Now you can install and upgrade eggs from standard apt commands, remember
