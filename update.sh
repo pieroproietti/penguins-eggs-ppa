@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LAST_RELEASE="26.1.11-2"
+LAST_RELEASE="26.1.15-1"
 URL_BASE="https://penguins-eggs.net/basket/packages/debs/"
 
 amd64=("penguins-eggs_${LAST_RELEASE}_amd64.deb")
