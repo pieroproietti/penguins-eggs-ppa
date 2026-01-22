@@ -2,9 +2,8 @@
 
 To build this ppa I follow this
 [assafmo guide](https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html).
-I was not able to include all architectures in this repository, and it is a
-pity, becouse can be great for i386 users. If you can help to include the i386,
-arm64 and armel versions in this repository, you are really welcome.
+I include all architectures in this repository: `amd64`, `i386`, `arm64` and `riscv64`.
+
 
 ### Build the repository
 
@@ -36,16 +35,16 @@ git push
 
 # Usage of the repository
 
-## Debian 12 bookwom, Ubuntu 22.04 LTS (Jammy) and previous
+## Debian 12 Bookworm, Ubuntu 22.04 LTS (Jammy) and previous
 Copy and paste in a terminal window the following two lines:
 
 ```
 curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
 echo "deb [arch=$(dpkg --print-architecture)] https://pieroproietti.github.io/penguins-eggs-ppa ./" | sudo tee /etc/apt/sources.list.d/penguins-eggs.list > /dev/null
 ```
-## Debian 13 trixe, Ubuntu 23.04 LTS (Noble) and following
+## Debian 13 Trixie, Ubuntu 24.04 LTS (Noble) and following
 ```
-curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/penguins-eggs.gpg
+curl -fsSL https://pieroproietti.github.io/penguins-eggs-ppa/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/penguins-eggs-ppa.gpg
 echo "
 Types: deb
 URIs: https://pieroproietti.github.io/penguins-eggs-ppa
@@ -53,6 +52,7 @@ Suites: ./
 Signed-By: /usr/share/keyrings/penguins-eggs-ppa.gpg
 " | sudo tee /etc/apt/sources.list.d/penguins-eggs-ppa.sources > /dev/null
 ```
+
 
 Now you can install and upgrade eggs from standard apt commands, remember
 `sudo apt update`
@@ -75,7 +75,7 @@ You can contact me by [mail](mailto://pieroproietti@gmail.com) or follow me on
 
 # Copyright and licenses
 
-Copyright (c) 2017, 2023
+Copyright (c) 2017, 2026
 [Piero Proietti](https://penguins-eggs.net/about-me.html), dual licensed under
 the MIT or GPL Version 2 licenses.
 
