@@ -59,10 +59,8 @@ Now you can install and upgrade eggs from standard apt commands, remember
 
 # More informations
 
-There is a [Penguins' eggs official book](https://penguins-eggs.net/docs/) and
-same other documentation - mostly for developers - on
-[penguins-eggs repo](https://github.com/pieroproietti/penguins-eggs) under
-**documents**.
+There is a [Penguins' eggs Tutorial](https://penguins-eggs.net/docs/) and same other documentation - mostly for developers - on
+[penguins-eggs repo](https://github.com/pieroproietti/penguins-eggs/DOCS).
 
 You can contact me by [mail](mailto://pieroproietti@gmail.com) or follow me on
 [blog](https://penguins-eggs.net),
