@@ -3984,10 +3984,10 @@ Suggests: calamares
 Conflicts: calamares-settings-debian, calamares-settings-ubuntu, eggs
 Replaces: eggs
 Filename: ./dists/arm64/penguins-eggs_26.1.27-1_arm64.deb
-Size: 16231782
-MD5sum: 2da359da81e3f3057b40c359f3c1db99
-SHA1: 7bf3fee3369970038a7bb2c6f69df2f2438ad43f
-SHA256: c555d775b8a91537a00c864e23260fb1486b1910753695feb7aedcd303672260
+Size: 26973616
+MD5sum: 33b1781db3b85f975b804263c6919227
+SHA1: 7cb55d23a910662140bd39a67b430f5d60697c9b
+SHA256: 3576c731bd3848a94f8c59a93d17f42d4aa81d2e25de9aa3325d2cb807da1a86
 Description: A remaster system tool, compatible with Almalinux, Alpine, Arch, Debian, Devuan, Fedora, Manjaro, Opensuse, Ubuntu and derivatives
  Penguins-eggs is a versatile remastering tool that allows users to create
  custom live ISO images. It supports multiple Linux distributions, including
