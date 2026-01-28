@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LAST_RELEASE="26.1.27-1"
+LAST_RELEASE="26.1.28-1"
 URL_BASE="https://penguins-eggs.net/basket/packages/debs/"
 
 amd64=("penguins-eggs_${LAST_RELEASE}_amd64.deb")
@@ -12,4 +12,3 @@ wget -q -O "dists/amd64/$amd64" "$URL_BASE/${amd64//_/-}"
 wget -q -O "dists/arm64/$arm64" "$URL_BASE/${arm64//_/-}"
 wget -q -O "dists/i386/$i386" "$URL_BASE/${i386//_/-}"
 wget -q -O "dists/riscv64/$riscv64" "$URL_BASE/${riscv64//_/-}"
-
