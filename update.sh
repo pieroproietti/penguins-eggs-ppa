@@ -8,8 +8,8 @@ arm64=("penguins-eggs_${LAST_RELEASE}_arm64.deb")
 i386=("penguins-eggs_${LAST_RELEASE}_i386.deb")
 riscv64=("penguins-eggs_${LAST_RELEASE}_riscv64.deb")
 
-wget -q -O "dists/amd64/$amd64" "$URL_BASE/$amd64"
-wget -q -O "dists/arm64/$arm64" "$URL_BASE/$arm64"
-wget -q -O "dists/i386/$i386" "$URL_BASE/$i386"
-wget -q -O "dists/riscv64/$riscv64" "$URL_BASE/$riscv64"
+wget -q -O "dists/amd64/$amd64" "$URL_BASE/${amd64//_/-}"
+wget -q -O "dists/arm64/$arm64" "$URL_BASE/${arm64//_/-}"
+wget -q -O "dists/i386/$i386" "$URL_BASE/${i386//_/-}"
+wget -q -O "dists/riscv64/$riscv64" "$URL_BASE/${riscv64//_/-}"
 
